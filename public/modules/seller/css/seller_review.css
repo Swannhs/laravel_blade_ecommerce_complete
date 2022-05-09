@@ -1,0 +1,11 @@
+    .product_img{
+        width: 10%;
+        height: auto;
+        margin-right: 15px;
+    }
+    .review_star{
+        color: #ffb400;
+    }
+    .text-gray{
+        color: gray;
+    }

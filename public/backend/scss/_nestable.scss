@@ -1,0 +1,253 @@
+.dd {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    /*max-width: 600px;*/
+    list-style: none;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.dd-list {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dd-list .dd-list {
+    padding-left: 30px;
+}
+
+.dd-collapsed .dd-list {
+    display: none;
+}
+
+.dd-item,
+.dd-empty,
+.dd-placeholder {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.dd-handle {
+    display: block;
+    margin: 10px 0;
+    // padding: 10px 10px;
+    text-decoration: none;
+    border: 1px solid #ebebeb;
+    background: #fff;
+    -webkit-border-radius: 3px;
+    border-radius: 30px;
+    background: #F5F7FB;
+    border: 0;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #415094;
+    padding-left: 58px;
+    cursor: grab;
+    .menu_icon{
+        float: left;
+        padding: 0px 16px;
+        font-size: 14px;
+        font-weight: 400;
+        border: 0;
+        border: 1px solid #F5F7FB;
+        box-sizing: border-box;
+        border-radius: 23px 0px 0px 23px;
+        color: #415094;
+        background: #fff;
+        height: 46px;
+        margin-right: 12px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+}
+.edit_icon{
+    float: right;
+    cursor: pointer;
+    font-size: 16px;
+    color: #707DB7;
+    font-weight: 400;
+    padding-right: 20px;
+    height: 46px;
+    line-height: 46px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.dd-handle:hover {
+    // background: #fff;
+}
+
+.dd-item > button {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    width: 60px;
+    height: 46px;
+    padding: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+    background: transparent;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    font-weight: bold;
+    line-height: 46px;
+    margin-left: 45px;
+    z-index: 99;
+    width: 38px;
+}
+
+.dd-item > button:before {
+    content: "\e61a";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'themify';
+    font-size: 14px;
+    color: #415094;
+    top: 0px;
+    left: 0px;
+    font-size: 14px;
+}
+
+.dd-item > button[data-action="collapse"]:before {
+    content: '\e622';
+    font-size: 14px;
+}
+
+.dd-placeholder,
+.dd-empty {
+    margin: 5px 0;
+    padding: 0;
+    min-height: 46px;
+    background: #f2fbff;
+    border: 1px dashed #415094;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.dd-empty {
+    border: 1px dashed #415094;
+    min-height: 100px;
+    background-color: #e5e5e5;
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+}
+
+.dd-dragel {
+    position: absolute;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+.dd-dragel > .dd-item .dd-handle {
+    margin-top: 0;
+}
+
+.dd-dragel .dd-handle {
+    -webkit-box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+/**
+ * Nestable Extras
+ */
+.nestable-lists {
+    display: block;
+    clear: both;
+    padding: 30px 0;
+    width: 100%;
+    border: 0;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+@media only screen and (min-width: 700px) {
+    .dd + .dd {
+        margin-left: 2%;
+    }
+}
+
+.dd-hover > .dd-handle {
+    background: #2ea8e5 !important;
+}
+
+/**
+ * Nestable Draggable Handles
+ */
+.dd3-content {
+    display: block;
+    margin: 5px 0;
+    padding: 5px 10px 0px 44px;
+    text-decoration: none;
+    border: 1px solid #ebebeb;
+    background: #fff;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.dd-dragel > .dd3-item > .dd3-content {
+    margin: 0;
+}
+
+.dd3-item > button {
+    margin-left: 40px;
+}
+
+.dd3-handle {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    width: 40px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 1px solid #ebebeb;
+    background: #fff;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.dd3-handle:before {
+    content: '≡';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+    color: #ccc;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.dd3-handle:hover {
+    background: #f7f7f7;
+}
+
+
+.menu_edit_field{
+    display: none;
+}

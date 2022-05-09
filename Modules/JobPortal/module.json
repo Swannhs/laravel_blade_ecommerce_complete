@@ -1,0 +1,13 @@
+{
+    "name": "JobPortal",
+    "alias": "jobportal",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\JobPortal\\Providers\\JobPortalServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

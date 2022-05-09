@@ -1,0 +1,286 @@
+
+// new sidebar
+#sidebar ul li a:hover, #sidebar ul li a.active,#sidebar ul li.mm-active > a  {
+    color: #ffffff;
+    background: #415094;
+    border-left: 6px solid #7c32ff;
+    border-image-source: linear-gradient(#c738d8, #7c32ff);
+    border-image-slice: 6;
+} 
+.sidebar{
+    .mini_logo{
+        display: none;
+    }
+    .large_logo{
+        display: block;
+    }
+    #sidebar_menu{
+        li{
+            a{
+                font-size: 12px;
+                font-weight: 500;
+                color: $base_color;
+                // padding: 22px 25px 22px 30px;
+                padding: 9px 7px;
+                padding: 9px 7px 9px 29px;
+                background: #fff;
+                transition: .3s;
+                position: relative;
+                z-index: 0;
+                display: grid;
+                grid-template-columns: 26px auto !important;
+                grid-gap: 6px;
+                align-items: center;
+                position: relative;
+                background: transparent;
+                // @media #{$medium_device} {
+                //     padding: 12px 25px 12px 30px;
+                // }
+                // &::before{
+                //     position: absolute;
+                //     left: 0;
+                //     background: $base_color;
+                //     width: 0px;
+                //     top: 0;
+                //     bottom: 0;
+                //     content: '';
+                //     opacity: 0;
+                //     transition: .3s;
+                //     right: 0px;
+                //     visibility: hidden;
+                //     background: linear-gradient(180deg, #C738D8 0%, #8233FC 100%);
+                // }
+                i{
+                    font-size: 12px;
+                    margin-right: 12px;
+                    color: $text_color_4;
+                    -webkit-transition: 0.5s;
+                    transition: 0.5s;
+                }
+                .nav_icon_small span {
+                    // font-size: 15px;
+                }
+                span{
+                    margin: 0;
+                }
+               &.has-arrow{
+                &::after {
+                    color: #415094;
+                    font-weight: 600;
+                    font-size: 12px;
+                    right: 20px;
+                  }
+                &:hover::after {
+                    color: #fff;
+                  }
+               }
+                &:hover{
+                    background: $base_color;
+                    color:$white;
+                    i{
+                        color: $white;
+                    }
+                    &::before{
+                        width: 6px;
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                    
+                }
+            }
+            &.mm-active{
+                
+                >a{
+                    color: #fff;
+                    background: $base_color;
+                    &.has-arrow{
+                        &::after {
+                            color: #fff;
+                            font-weight: 600;
+                            font-size: 12px;
+                            right: 20px;
+                          }
+                        &:hover::after {
+                            color: #fff;
+                          }
+                       }
+                }
+                &.metis_dropmenu{
+                    // border-top: 1px solid #eee1e2;
+                    // border-bottom: 1px solid #eee1e2;
+                    // background: #fff7f8;
+                    >a{
+                        padding-top: 29px;
+                        padding-bottom: 30px;
+                        color: $white;
+                    }
+                }
+               >a{
+                    i{
+                        color: $white;
+                    }
+                    &::before{
+                        opacity: 1;
+                        width: 6px;
+                        visibility: visible;
+                    }
+                }
+            }
+            ul{
+                li{
+                    a{
+                        white-space: nowrap;
+                        padding-left: 55px;
+                        color: #fff;
+                        &:hover,&.active{
+                            background: rgba(255, 255, 255,.05);
+                            border-left: 6px solid #7c32ff;
+                        }
+                    }
+                    &.metis_submenu> a{
+                        background: rgba(255, 255, 255,.05);
+                        border-left: 6px solid #7c32ff;
+                    }
+                }
+            }
+            // ul{
+            //     // background: #fff7f8;
+            //     padding: 0px 0px 0px 70px;
+            //     // border-bottom: 1px solid #eee1e2;
+            //     @media #{$medium_device} {
+            //         padding: 0px 0px 0px 55px;
+            //     }
+            //     li{
+            //         margin: 0;
+            //         a{
+            //             font-size: 13px;
+            //             line-height: 36px;
+            //             color: #7e7172;
+            //             font-weight: 400;
+            //             padding: 0;
+            //             white-space: nowrap;
+            //             &::before{
+            //                 display: none;
+            //             }
+
+            //         }
+            //     }
+            // }
+        }
+    }
+}
+
+// admin_profile_Wrap 
+.admin_profile_Wrap{
+    // margin-top: 10px;
+    margin-bottom: 30px;
+    ul{
+        li{
+            background: #fff7f8;
+            border-top: 1px solid #eee1e2;
+            border-bottom: 1px solid #eee1e2;
+            padding: 30px 0 30px 30px;
+            @media #{$medium_device} {
+                padding: 30px 0 30px 20px;
+            }
+            &.mm-active{
+                // padding: 30px 0 27px 30px;
+            }
+            a{
+                display: block;
+                .admin_profile_inner{
+
+                    .thumb{
+                        img{
+                            width: 50px;
+                            height: 50px;
+                            @include border-radius(50%);
+                        }
+                    }
+                    .welcome_rext{
+                        margin-left: 15px;
+                        h5{
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #222222;
+                            margin-bottom: 1px;
+                            white-space: nowrap;
+                            @media #{$medium_device} {
+                                font-size: 12px;
+                            }
+                        }
+                        span{
+                            display: block;
+                            font-size: 12px;
+                            color: #7e7172;
+                            font-weight: 300;
+                            white-space: nowrap;
+                            @media #{$medium_device} {
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+            }
+            ul{
+                padding-left: 70px;
+                // padding-top: 30px;
+               li{
+                   padding: 0;
+                   border: 0;
+                   a{
+                    font-size: 13px;
+                    color: #7e7172;
+                    font-weight: 400;
+                    padding-bottom: 17px;
+                   }
+                   &:last-child{
+                       a{
+                           padding-bottom: 0;
+                       }
+                   }
+                   &:first-child{
+                       a{
+                          margin-top: 29px;
+                       }
+                   }
+               } 
+            }
+        }
+    }
+    .metismenu .has-arrow::after{
+        top: 38%;
+    }
+}
+
+
+.sidebar{
+    #sidebar_menu{
+        >li{
+            >a{
+                // display: grid;
+            }
+            >ul{
+                li{
+                    a{
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sidebar #sidebar_menu ul li.metis_submenu {
+    a.has-arrow::after{
+        color: #fff;
+    }
+   ul{
+       opacity: 1;
+       li{
+           a{
+               padding-left: 63px;
+           }
+       }
+   }
+}

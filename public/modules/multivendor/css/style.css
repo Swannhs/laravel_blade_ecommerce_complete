@@ -1,0 +1,12 @@
+.product_img {
+    width: 14%;
+    height: auto;
+}
+
+.pay_for_subscription {
+    color: #fff !important;
+    background: #f10000 !important;
+}
+.mb_5{
+    margin-bottom: 5px;
+}

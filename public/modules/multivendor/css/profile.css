@@ -1,0 +1,56 @@
+.img_cross{
+    position: relative;
+    background: linear-gradient(90deg
+    , #7c32ff 0%, #c738d8 51%, #7c32ff 100%);
+    color: #fff;
+    border-radius: 100%;
+    padding: 0px 0px 0px 5px;
+    top: 10px;
+    left: -5px;
+    width: 22px;
+    height: 22px;
+    font-size: 12px;
+}
+.browse_img{
+    width: 56.8125px;
+    height: 56.8125px;
+    top: -16.4062px;
+    left: 4.90625px;
+}
+.cursor_pointer{
+    cursor: pointer;
+}
+#imgDiv34{
+    width: 25%;
+    height:auto;
+    border-radius:5px;
+}
+#imgDiv33{
+    width: 25%;
+    height:auto;
+    border-radius:5px;
+}
+.custom_title_profile{
+    margin-left: 30px;
+    position:absolute;
+}
+
+
+@media (max-width: 1348px){
+    .student-details .nav-tabs {
+        margin-top: 50px;
+    }
+    .student-details .nav-tabs .nav-link{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 767px){
+    .white-box {
+        padding: 15px;
+    }
+    .student-details .nav-tabs .nav-link {
+        margin-bottom: 0px;
+    }
+}
+
+

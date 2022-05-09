@@ -1,0 +1,25 @@
+<?php return
+    [
+        'gst_setup' => 'GST Setup',
+        'gst_list' => 'GST List',
+        'configuration' => 'Configuration',
+        'gst' => 'GST',
+        'rate' => 'Rate',
+        'add_new_gst' => 'Add New GST',
+        'edit_gst' => 'Edit GST',
+        'place_of_delivery_inside_state' => 'Delivery Inside State',
+        'place_of_delivery_outside_state' => 'Delivery Outside State',
+        'gst_configuration' => 'GST Configuration',
+        'select_one_or_multiple' => 'Select One or Multiple',
+        'is_active' => 'Is Active',
+        'claim_gst' => 'Claim GST',
+        'gst_claimed' => 'GST Claimed',
+        'goods_and_services_tax' => 'Goods and Services Tax',
+        'total_gst' => 'Total GST',
+        'is_active_flat_tax' => 'Is Active Flat Tax',
+        'is_active_gst' => 'Is Active GST',
+        'flat_tax_percentage' => 'Flat Tax Percentage',
+        'flat_tax' => 'Flat Tax',
+        'gst_or_flat_rate_claimed_by_seller' => 'GST or Flat Rate claimed by seller',
+        'gst_or_flat_tax_claim_by_seller' => 'GST or Flat tax claim by Seller'
+    ];

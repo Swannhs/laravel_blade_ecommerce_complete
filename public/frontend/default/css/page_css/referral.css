@@ -1,0 +1,50 @@
+
+#code{
+    border: 1px solid transparent;
+    border-radius: 0;
+    height: 50px;
+    padding: .375rem 1.5rem;
+}
+#copyBtn{
+    background-color: #ff0027;
+    border-radius: 0;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 13px 30px;
+    cursor: pointer;
+}
+.codeDiv{
+    background-color: #f4f7f9;
+    padding: 50px 36px 50px;
+}
+.user_list_div{
+    margin-top: 30px;
+}
+.user-list{
+    background-color: #f4f7f9;
+    margin-top: 30px;
+}
+.user-img{
+    width: 100%;
+    height: auto;
+    padding: 0px!important;
+    border-radius: 5px;
+}
+.mt_60{
+    margin-top: 60px;
+}
+@media (max-width: 991px) {
+    .cart_part tbody td {
+        display: table-cell;
+        white-space: nowrap;
+    }
+}
+@media (max-width: 768px) {
+    p.mt-200 {
+        margin-top: 65px!important;
+    }
+}
+

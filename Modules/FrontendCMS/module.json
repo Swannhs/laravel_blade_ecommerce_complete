@@ -1,0 +1,13 @@
+{
+    "name": "FrontendCMS",
+    "alias": "frontendcms",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\FrontendCMS\\Providers\\FrontendCMSServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

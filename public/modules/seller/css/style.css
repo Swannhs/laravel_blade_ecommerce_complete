@@ -1,0 +1,28 @@
+
+    .product_img_div {
+        display: flex;
+        height: 50px;
+        width: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .product_img{
+        max-width: 95%;
+        max-height: 45px;
+        margin-right: 15px;
+    }
+    .review_star{
+        color: #ffb400;
+    }
+    .text-gray{
+        color: gray;
+    }
+    @media (max-width: 767px){
+        table.dataTable > tbody > tr.child span.dtr-data {
+            width: 140%;
+        }
+        .check_box_table .QA_table .table tbody td:first-child {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }

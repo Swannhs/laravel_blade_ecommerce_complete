@@ -1,0 +1,29 @@
+{
+    "name": "spondonit/amazcart-service",
+    "description": "'Service Provider for Infix amazcart application'",
+    "type": "library",
+    "require": {
+        "spondonit/service": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "spondonit",
+            "email": "support@spondonit.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SpondonIt\\AmazCartService\\": "src/"
+        },
+        "files": ["Helpers/helper.php"]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SpondonIt\\AmazCartService\\SpondonItAmazCartServiceProvider"
+            ]
+        }
+    }
+}

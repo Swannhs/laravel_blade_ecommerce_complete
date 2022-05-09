@@ -1,0 +1,8 @@
+
+.fade:not(.show) {
+    opacity: 1;
+}
+.iconpicker-popover.popover {
+    width: 90%!important;
+}
+

@@ -1,0 +1,160 @@
+.menu_setup_wrap{
+    .card{
+        margin-bottom: 10px;
+        border: 0;
+        .input-group{
+            .input-group-prepend{
+                .input-group-text{
+                    padding: 14px 16px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    border: 0;
+                    border: 1px solid #F5F7FB;
+                    box-sizing: border-box;
+                    border-radius: 23px 0px 0px 23px;
+                    color: #415094;
+                    background: #fff;
+                }
+            }
+            .input-group-append{
+                .input-group-text{
+                    color: #415094;
+                    font-size: 14px;
+                    border: 0;
+                    border-radius: 0 23px 23px 0;
+                    padding-right: 15px;
+                    background: #F5F7FB;
+                }
+            }
+            .menu_icon{
+                background: #FFFFFF;
+                border: 1px solid #F5F7FB;
+                box-sizing: border-box;
+                border-radius: 23px 0px 0px 23px;
+                display: inline-block;
+                i{
+                    font-size: 14px;
+                    color: #415094;
+                    display: flex;
+                    align-items: center;
+                   height: 46px;
+                   width: 50px;
+                   justify-content: center;
+                }
+            }
+            .settings_icon{
+                display: flex;
+                a{
+                    padding: 0 20px;
+                }
+
+            }
+            h2{
+                position: relative;
+                -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+                width: 1%;
+                margin-bottom: 0;
+                background: #F5F7FB;
+                
+                button{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #415094;
+                    padding: 0;
+                    padding: 12px;
+                    &:hover{
+                        text-decoration: none ;
+                    }
+                }
+            }
+        }
+        .card-header{
+            border: 0;
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            width: 100%;
+            padding: 0;
+            background: transparent;
+            .btn-link{
+                padding-left: 38px;
+                &::before{
+                    content: "\e622";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    font-family: 'themify';
+                    font-size: 14px;
+                    color: #415094;
+                    top: 12px;
+                    left: 12px;
+                }
+                &.collapsed{
+                    &::before{
+                        
+                        content: "\e61a";
+                    }
+                }
+            }
+        }
+        .card-body{
+            padding: 0;
+            padding-top: 15px;
+            padding-left: 50px;
+            .input-group{
+                margin-bottom: 15px;
+            }
+        }
+
+    }
+}
+
+
+// TAB 
+#bg_option,#Twilio_Settings {
+    display: block;
+}
+#color_option,#MSG91_Settings {
+    display: none;
+}    
+ 
+.sample-selector{
+    .form-control{
+        border-right: 0 !important;
+        &:focus{
+            box-shadow: none !important;
+            border-color:#ECEEF4 !important;
+        }
+    }
+    .input-group-append{
+        background: transparent ;
+        .input-group-text{
+            background: transparent ;
+            border-radius: 30px;
+            border: 1px solid #ECEEF4;
+            border-radius: 0px 30px 30px 0px;
+            height: 46px;
+            width: 46px;
+            text-align: center;
+            border-left: 0;
+           i{
+            border-radius: 50%;
+            flex: 25px 0 0;
+            position: relative;
+            right: 3px;
+           }
+        }
+    }
+}
+.colorpicker-element .add-on i, .colorpicker-element .input-group-prepend i, .colorpicker-element .input-group-append i {
+    display: inline-block;
+    cursor: pointer;
+    height: 25px;
+    vertical-align: text-top;
+    width: 25px;
+}

@@ -1,0 +1,23 @@
+<?php
+return [
+    'Chart Of Accounts' => 'চার্ট অ্যাকাউন্ট',
+    'New Account' => ' নতুন অ্যাকাউন্ট',
+    'Add As A Parent Account' => ' একটি অভিভাবক অ্যাকাউন্ট হিসাবে যুক্ত করুন',
+    'Parent account selection will add your account as a sub account' => ' অভিভাবক অ্যাকাউন্ট যোগ করুন নির্বাচন করা হবে আপনার অ্যাকাউন্ট হিসাবে উপ অ্যাকাউন্ট',
+    'Select your Expense Account' => ' আপনার কিছু অ্যাকাউন্ট নির্বাচন করুন',
+    'Select your Income Account' => ' আপনার আয় অ্যাকাউন্ট নির্বাচন করুন',
+    'Select your Payment method' => ' আপনার প্রদানের পদ্ধতিটি নির্বাচন করুন',
+    'Account code need to be unique. Leave blank for auto generate an unique account code.' => ' অ্যাকাউন্ট কোড হতে হবে অদ্বিতীয়। ফাঁকা রাখুন জন্য একটি অনন্য অ্যাকাউন্ট কোড স্বয়ংক্রিয় জেনেরেট করুন।',
+    'Selecting a default Account, will remove previously default account for selected item.' => ' একটি ডিফল্ট অ্যাকাউন্ট নির্বাচন করে অপসারণ করা হবে, পূর্বে নির্বাচিত আইটেমের জন্য ডিফল্ট অ্যাকাউন্ট।',
+    'Select Default Account For' => ' ডিফল্ট অ্যাকাউন্টের জন্য নির্বাচন করুন',
+    "You cann't delete an account which has child element" => ' আপনি কোন একাউন্ট বিলোপ করতে পারেন না যা চাইল্ড এলিমেন্ট',
+    'The requested chart of account is not found' => ' অনুরোধ করা ছক একাউন্ট খুঁজে পাওয়া গেল না',
+    'The requested chart of account deleted successful' => ' অনুরোধ করা চার্ট এর একাউন্ট বিলোপ করা সফল',
+    'The requested chart of account created successful' => ' অনুরোধ করা ছক অ্যাকাউন্ট তৈরি করা সফল',
+    'Income Account' => ' আয় অ্যাকাউন্ট',
+    'Expense Account' => ' খরচা অ্যাকাউন্ট',
+    'Select Account' => ' একাউন্ট নির্বাচন করুন',
+    'Payment Method' => ' প্রদানের পদ্ধতি',
+    'The requested chart of account updated successful' => 'অনুরোধ করা অ্যাকাউন্টের চার্টটি সফলভাবে আপডেট হয়েছে',
+    'Edit Account' => 'অ্যাকাউন্ট সম্পাদনা করুন',
+];

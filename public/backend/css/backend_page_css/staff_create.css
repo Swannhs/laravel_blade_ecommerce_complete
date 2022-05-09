@@ -1,0 +1,16 @@
+
+    .avatar_div {
+        display: flex;
+        height: 120px;
+        width: 120px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--border_color);
+        margin-top: 10px;
+    }
+    #StaffImgShow {
+        max-width: 98%;
+        max-height: 116px;
+        border-radius: 5px;
+    }
+

@@ -1,0 +1,13 @@
+{
+    "name": "UserActivityLog",
+    "alias": "useractivitylog",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\UserActivityLog\\Providers\\UserActivityLogServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

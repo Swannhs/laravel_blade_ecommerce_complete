@@ -1,0 +1,25 @@
+{
+    "account_type": [
+        "Income",
+        "Expense",
+        "Asset",
+        "Liability",
+        "Loan"
+    ],
+    "account_default_for" : [
+        "Income",
+        "Expense",
+        "Asset",
+        "Liability",
+        "Loan",
+        "Seller Account",
+        "Sallary Account",
+        "GST Tax Account",
+        "Product Wise Tax Account"
+    ],
+    "payment_method" : [
+        "Cash",
+        "Bank",
+        "Cheque"
+    ]
+}

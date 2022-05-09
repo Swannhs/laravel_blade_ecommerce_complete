@@ -1,0 +1,206 @@
+.dataTables_info {
+	margin-top: 35px !important;
+	padding: 0 !important;
+}
+// row data table 
+.dataTables_wrapper .dataTables_paginate {
+    padding-top: 0;
+    @media #{'(min-width: 768px)'}{
+        text-align: right;
+    }
+    @media #{'(max-width: 767px)'}{
+        margin-top: 30px;
+    }
+    @media #{'(min-width: 992px)'}{
+        text-align: right;
+    }
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child::before,
+table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child::before {
+  content: "\e622";
+  background: red;
+  box-shadow: none;
+}
+.table.dataTable{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.dataTables_paginate a {
+	margin: 0 0 0 10px !important;
+}
+.check_box_table table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child::before, .check_box_table table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child::before {
+	left: 10px;
+	line-height: 18px;
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child::before {
+    line-height: 17px ;
+    left: 7px;
+}
+table.dataTable tbody tr {
+	background-color: transparent;
+}
+
+.QA_section .QA_table .table thead th {
+    background-color: transparent;
+    vertical-align: top !important;
+}
+
+
+
+
+// ONLY FOR CHECK BOX TABLE CSS
+.check_box_table .QA_table .table thead th:nth-child(2) {
+    padding-left: 20px !important;
+    &.sorting::after {
+        left: 4px;
+    }
+    &.sorting_desc::after{
+        left: 4px;
+    }
+    &.sorting_asc::after{
+        left: 4px;
+    }
+}
+.QA_section.check_box_table .QA_table .table thead tr th:first-child {
+	white-space: nowrap !important;
+	padding-left: 35px !important;
+}
+.check_box_table{
+    .QA_table{
+        .table{
+            thead{
+                th{
+                    &:nth-child(2){
+                        padding-left: 0px;
+                    }
+                    &:first-child{
+                        padding-left: 35px !important;
+                        padding-right: 24px;
+                    }
+                }
+            }
+            
+            tbody{
+                th{
+                    &:nth-child(2){
+                        padding-left: 0px;
+                    }
+                    &:first-child{
+                        padding-left: 35px !important;
+                        padding-right: 24px;
+                    }
+                }
+                td{
+                    &:nth-child(2){
+                        padding-left: 0px;
+                    }
+                    &:first-child{
+                        padding-left: 35px;
+                        padding-right: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+// ONLY FOR CHECK BOX TABLE CSS END
+
+
+
+
+// ONLY FOR CHECK BOX # TWO # TABLE CSS
+.check_box_table2 table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child::before,.check_box_table2 table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child::before {
+	left: 0px;
+	line-height: 18px;
+}
+.check_box_table2 .QA_table .table thead th:nth-child(2) {
+    padding-left: 20px !important;
+    &.sorting::after {
+        left: 4px;
+    }
+    &.sorting_desc::after{
+        left: 4px;
+    }
+    &.sorting_asc::after{
+        left: 4px;
+    }
+}
+.QA_section.check_box_table2 .QA_table .table thead tr th:first-child {
+	white-space: nowrap !important;
+	padding-left: 25px !important;
+}
+.check_box_table2{
+    .QA_table{
+        .table{
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+            thead{
+                th{
+                    &:nth-child(2){
+                        padding-left: 0px;
+                    }
+                    &:first-child{
+                        padding-left: 25px !important;
+                        padding-right: 24px;
+                    }
+                }
+            }
+            
+            tbody{
+                th{
+                    &:nth-child(2){
+                        padding-left: 0px;
+                    }
+                    &:first-child{
+                        padding-left: 25px !important;
+                        padding-right: 24px;
+                    }
+                }
+                td{
+                    &:nth-child(2){
+                        padding-left: 0px;
+                    }
+                    &:first-child{
+                        padding-left: 25px;
+                        padding-right: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+// ONLY FOR CHECK BOX # TWO # TABLE CSS END
+
+
+// USING TABLE VARIATION 
+
+// .QA_section3 .QA_table table.dataTable  thead  {
+//     padding-left: 20px !important;
+//     &.sorting::after {
+//         left: 4px;
+//     }
+//     &.sorting_desc::after{
+//         left: 4px;
+//     }
+//     &.sorting_asc::after{
+//         left: 4px;
+//     }
+// }
+
+
+.QA_section3 .QA_table .dataTable thead{
+    
+    .sorting::after {
+        left: 10px;
+        top: 6px;
+    }
+    .sorting_desc::after{
+        left: 10px;
+        top: 6px;
+    }
+    .sorting_asc::after{
+        left: 10px;
+        top: 6px;
+        
+    }
+}

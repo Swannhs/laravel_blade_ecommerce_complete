@@ -1,0 +1,17 @@
+
+    .dashboard_part .account_details form {
+        background-color: #fff !important;
+    }
+    .empty_list{
+        margin-top: 250px;
+        margin-left: 40%;
+    }
+    .item_img_div {
+        display: flex;
+        height: 60px;
+        width: 60px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+

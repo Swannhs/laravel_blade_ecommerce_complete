@@ -1,0 +1,102 @@
+.fc-right {
+    display: flex !important;
+    align-content: center !important;
+    align-items: center !important;
+    @media #{$small_mobile} {
+        justify-content: space-between ;
+        margin-top: 10px;
+    }
+    h2 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #415094;
+    }
+}
+
+.fc-icon-left-single-arrow::after {
+    content: "\e629";
+    font-weight: 500;
+    font-size: 12px;
+    top: -7%;
+    font-family: 'themify';
+}
+.fc-icon {
+    height: 1em;
+    line-height: 1em;
+    font-size: 1em;
+    font-family: 'themify';
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.fc-toolbar h2 {
+    font-size: 1.75em;
+    margin: 0;
+        margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #415094;
+    margin-bottom: 0;
+}
+.fc-toolbar {
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    @media #{$small_mobile} {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+  .fc th {
+    text-align: center;
+    padding: 23px 15px !important;
+    font-weight: 400;
+    color: #415094;
+    @media #{$small_mobile} {
+        padding: 10px 0 !important;
+    }
+}
+fc-dayGrid-view .fc-week-number, .fc-dayGrid-view .fc-day-number {
+    color: #A0A7C9 !important;
+    @media #{$small_mobile} {
+        padding: 5px;
+    }
+}
+.default_text14{
+    font-size: 14px;
+    font-weight: 400;
+    color: #415094;
+    line-height: 26px;
+}
+.edit_pop_text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.fc-center {
+    display: flex;
+    align-items: center;
+}
+.fc-center {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.add_mile_stone_clicker {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    @media #{$small_mobile} {
+        right: 0;
+        left: 0;
+        margin: auto;
+        text-align: center;
+    }
+}
+#calendar2{
+    @media #{$small_mobile} {
+        padding-top: 35px;
+    }
+}

@@ -1,0 +1,22 @@
+.logo_div {
+    display: flex;
+    height: 120px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+}
+#ThumbnailImgDiv{
+    max-width: 100%;
+    max-height: 120px;
+}
+.mini_logo_div {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+}
+.mini_logo{
+    max-height: 60px;
+    max-width: 98%;
+}

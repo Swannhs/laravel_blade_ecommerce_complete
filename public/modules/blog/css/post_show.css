@@ -1,0 +1,19 @@
+
+.blog_img_div {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.blog_img_div a img{
+    max-width: 100%;
+    max-height: 300px;
+}
+@media (max-width: 540px) {
+    .blog_img_div {
+        height: 250px;
+        width: 290px;
+    }
+}
+

@@ -1,0 +1,691 @@
+/******** base color css ********/
+.btn_1{
+    background-color: $base_color;
+    border: 1px solid $base_color;
+    color: $white;
+    display: inline-block;
+    padding: 11px 23px;
+    text-transform: capitalize;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 5px;
+    white-space: nowrap;
+    @include transform_time(.5s);
+    i{
+        font-size: 15px;
+        padding-right: 7px;
+    }
+    &:hover{
+        background-color: $white;
+        border: 1px solid $base_color;
+        color: $base_color;
+    }
+    &.light{
+        background-color: rgba($color: $base_color, $alpha: .1);
+        border: 1px solid transparent;
+        color: $base_color;
+    }
+    &.green{
+        background-color: rgba($color: #2EC9B8, $alpha: .1);
+        border: 1px solid transparent;
+        color: #2EC9B8;
+    }
+    &.sm{
+        font-size: 12px;
+        padding: 6px 15px;
+    }
+    &.big_btn{
+        padding: 11px 36px;
+    }
+    &.form_big_btn_1{
+        padding: 16px 62px !important;
+        @media #{$small_mobile} {
+            padding: 16px 30px !important;
+        }
+    }
+    &.big_btn2{
+        padding: 11px 37px;
+    }
+}
+.btn_2{
+    color: $base_color;
+    border: 1px solid $base_color;
+    display: inline-block;
+    padding: 11px 23px;
+    text-transform: capitalize;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: $white;
+    white-space: nowrap;
+    @include transform_time(.5s);
+    &:hover{
+        background-color: $base_color;
+        border: 1px solid $base_color;
+        color: $white;
+    }
+}
+.btn_3{
+    color: $heading_color_1;
+    border: 1px solid $border_color_3;
+    display: inline-block;
+    padding: 11px 27px;
+    text-transform: capitalize;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: $white;
+    white-space: nowrap;
+    @include transform_time(.5s);
+    &.border_color_1{
+        border: 1px solid #eee1e2;
+        
+    }
+    &:hover{
+        background-color: $base_color;
+        border: 1px solid $base_color;
+        color: $white;
+    }
+}
+.btn_4{
+    display: inline-block;
+    border: 1px solid $border_color_3;
+    border-radius: 5px;
+    color: $text_color;
+    text-align: center;
+    padding: 9px 15px;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    @include transform_time(.5s);
+    &:hover{
+        background-color: $base_color;
+        border: 1px solid $base_color;
+        color: $white;
+    }
+}
+
+.btn_5{
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 16px 26px !important;
+    text-transform: capitalize;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: $white;
+    white-space: nowrap;
+    @include transform_time(.5s);
+    background: #fff !important;
+    text-shadow: none !important;
+    opacity: 1;
+    color: #222222;
+    &:hover{
+        background-color: $base_color !important;
+        border: 1px solid $base_color !important;
+        color: $white;
+        opacity: 1 !important;
+    }
+    &.small_btn{
+        padding: 11px 26px !important;
+        @media #{$small_mobile} {
+            padding: 11px 19px !important;
+        }
+        @media #{$large_mobile} {
+            padding: 11px 19px !important;
+        }
+    }
+}
+.btn_6{
+    color: $heading_color_1;
+    border: 1px solid $border_color_4;
+    display: inline-block;
+    padding: 11px 25px;
+    text-transform: capitalize;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: $white;
+    white-space: nowrap;
+    @include transform_time(.5s);
+    &:hover{
+        background-color: $base_color;
+        border: 1px solid $base_color;
+        color: $white;
+    }
+}
+.sm_btn {
+    line-height: 15px;
+    background-color: #fff;
+    height: 34px;
+    padding: 9px 20px;
+    color: #212e40;
+    width: 150px;
+    text-transform: capitalize;
+    border: 1px solid $border_color_4;
+}
+
+//<<:::::::::::::::::: CRM_btn_list:::::::::::::::::::>>
+.primary_btn{
+    color: $base_color;
+    border: 1px solid #7c32ff;
+    display: inline-block;
+    padding: 7px 23px;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: transparent;
+    white-space: nowrap;
+    @include transform_time(.3s);
+    &:hover{
+        @extend %gradient_1;
+        border: 1px solid transparent;
+        color: $white;
+    }
+}
+.primary_btn_1{
+    display: inline-block;
+    padding: 7px 25px;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 30px;
+    white-space: nowrap;
+    @include transform_time(.3s);
+    @extend %gradient_1;
+    color: $white;
+    i{
+        font-size: 12px;
+        padding-right: 6px;
+    }
+    &:hover{
+        @extend %gradient_1;
+        color: $white;
+    }
+}
+
+.primary_btn_2{
+    display: inline-block;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 30px;
+    white-space: nowrap;
+    @include transform_time(.3s);
+    @extend %gradient_1;
+    color: $white;
+    border: 0;
+    cursor: pointer;
+    overflow: hidden;
+    i{
+        font-size: 12px;
+        padding-right: 6px;
+    }
+    &:hover{
+        @extend %gradient_1;
+        color: $white;
+        box-shadow: 0px 5px 10px rgba(108, 39, 255, 0.25);
+    }
+}
+
+.primary_btn_large{
+    display: inline-block;
+    padding: 17px 23px;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+    white-space: nowrap;
+    @include transform_time(.3s);
+    @extend %gradient_1;
+    color: $white;
+    border: 0;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    i{
+        font-size: 12px;
+        padding-right: 6px;
+    }
+    &:hover{
+        @extend %gradient_1;
+        color: $white;
+        box-shadow: 0px 5px 10px rgba(108, 39, 255, 0.25);
+    }
+}
+// primary_btn_circle 
+.primary_btn_circle{
+    color: $base_color;
+    border: 1px solid #7c32ff;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 50%;
+    background-color: transparent;
+    white-space: nowrap;
+    @include transform_time(.3s);
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    i{
+        font-size: 12px;
+        line-height: 32px;
+        @include transform_time(.3s);
+        color: $base_color;
+    }
+    &:hover{
+        @extend %gradient_1;
+        border: 1px solid transparent;
+        color: $white;
+        i{
+            color: $white;
+        }
+    }
+}
+
+
+
+
+
+
+//<<:::::::::::::::::: CRM_btn_list end:::::::::::::::::::>>
+
+
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child::before, 
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child::before {
+    // background-color:#222;
+    z-index: 9;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "\e61a";
+    font-family: 'themify';
+    font-size: 8px;
+    line-height: 14px;
+    font-weight: 600;
+    background-color: #fef1f2;
+    box-shadow: 6px 6px 12px rgba(0,0,0,.08),
+         -6px -6px 12px rgba(255,255,255,1);
+
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child::before, 
+table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child::before {
+
+    content: "\e622";
+    // background: #fe1724;
+    box-shadow: inset 6px 6px 12px rgba(0,0,0,.08),
+    inset -6px -6px 12px rgba(255,255,255,1);
+
+}
+
+
+
+// CRM_dropdown 
+.CRM_dropdown.dropdown{
+    .dropdown-toggle{
+        background: transparent;
+        color: #415094;
+        font-size: 12px;
+        font-weight: 500;
+        border: 1px solid #7c32ff;
+        border-radius: 32px;
+        padding: 2px 40px 5px 23px;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .3s;
+        height: 32px;
+        @media #{'only screen and (min-width: 992px) and (max-width: 1400px)'} {
+            padding: 2px 30px 5px 23px;
+        }
+        &:after{
+            content: "\e62a";
+            font-family: "themify";
+            border: none;
+            border-top-color: currentcolor;
+            border-top-style: none;
+            border-top-width: medium;
+            border-top: 0px;
+            font-size: 12px;
+            position: relative;
+            top: 3px;
+            left: 0;
+            font-weight: 400;
+            transition: .3s;
+        }
+        &:hover , &:focus{
+            color: #fff;
+            @extend %gradient_1;
+            border: 1px solid transparent ;
+            box-shadow: none !important;
+        }
+    }
+    &.show{
+        .dropdown-toggle{
+
+            &::after{
+                
+            }
+        }
+    }
+    .dropdown-menu{
+        border-radius: 5px 5px 10px 10px;
+        border: 0px;
+        padding: 15px 0px;
+        box-shadow: 0px 10px 20px rgba(108, 39, 255, 0.3);
+        margin-top: 5px;
+        &.full_width{
+            min-width: 110px;
+        }
+        .dropdown-item{
+            color: #828bb2;
+            text-align: right;
+            font-size: 12px;
+            padding: 4px 1.5rem;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover{
+                color: $base_color;
+            }
+            .active, &:active {
+                color: $base_color;
+                background-color: #f8f9fa;
+            }
+        }
+    }
+    &.CRM_dropdown_default{
+        button{
+            padding: 0 !important;
+            border: 0 !important;
+            text-transform: capitalize;
+            font-size: 13px;
+            text-align: left;
+            overflow: visible ;
+            &:hover{
+                background: transparent ;
+                color: #415094;
+            }
+            &:hover , &:focus{
+                border: 0;
+                box-shadow: none !important;
+                background: transparent ;
+                color: #415094;
+            }
+            &:after{
+                content:"\f0d7";
+                font-family: "Font Awesome 5 free";
+                border: none;
+                border-top-color: currentcolor;
+                border-top-style: none;
+                border-top-width: medium;
+                border-top: 0px;
+                font-size: 12px;
+                position: relative;
+                top: 3px;
+                left: 0;
+                font-weight: 900;
+                transition: .3s;
+                position: absolute;
+                right: 0;
+                left: auto;
+                top: 4px;
+            }
+        }
+        .dropdown-item{
+            text-transform: capitalize !important;
+            text-align: left;
+        }
+    }
+}
+.dropdown-menu.option_width_8 {
+    min-width: 150px;
+  }
+
+/* -------------------------------------------------------------------------- */
+/*                                color button                                */
+/* -------------------------------------------------------------------------- */
+.primary_color_btn{
+    display: inline-block;
+    padding: 11px 25px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 10px;
+    white-space: nowrap;
+    @include transform_time(.3s);
+    @extend %gradient_1;
+    color: $white;
+    border: 0;
+    cursor: pointer;
+    &.yellow_btn{
+        background:rgba(255, 173, 31,1) ;
+        &:hover{
+            background:rgba(255, 173, 31,.9) ;
+        }
+    }
+    &.radish_btn{
+        background:rgba(255, 109, 104,1) ;
+        &:hover{
+            background:rgba(255, 109, 104,.9) ;
+        }
+    }
+    &.green_btn{
+        background:rgba(75, 207, 144,1) ;
+        &:hover{
+            background:rgba(75, 207, 144,.9) ;
+        }
+    }
+    &.lite_blue_btn{
+        background:rgba(98, 118, 247,1) ;
+        &:hover{
+            background:rgba(98, 118, 247,.9) ;
+        }
+    }
+    &.Cyan_btn{
+        background:rgba(32, 213, 238,1) ;
+        &:hover{
+            background:rgba(32, 213, 238,.9) ;
+        }
+    }
+    &.dark_btn{
+        background:#3C4777 ;
+        &:hover{
+            background:#3C4777 ;
+        }
+    }
+    // letter-spacing: 0.1em;
+    // i{
+    //     font-size: 12px;
+    //     padding-right: 6px;
+    // }
+    &:hover{
+        // @extend %gradient_1;
+        color: $white;
+        // box-shadow: 0px 5px 10px rgba(108, 39, 255, 0.25);
+    }
+}
+
+.primary_color_btn2{
+    display: inline-block;
+    padding: 6px 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 10px;
+    white-space: nowrap;
+    @include transform_time(.3s);
+    @extend %gradient_1;
+    color: $white;
+    border: 0;
+    cursor: pointer;
+    &.yellow_btn{
+        background:rgba(255, 173, 31,1) ;
+        &:hover{
+            background:rgba(255, 173, 31,.9) ;
+        }
+    }
+    &.Maroon_btn{
+        background:rgba(148, 90, 164,1) ;
+        &:hover{
+            background:rgba(148, 90, 164,.9) ;
+        }
+    }
+    &.radish_btn{
+        background:rgba(255, 109, 104,1) ;
+        &:hover{
+            background:rgba(255, 109, 104,.9) ;
+        }
+    }
+    &.green_btn{
+        background:rgba(75, 207, 144,1) ;
+        &:hover{
+            background:rgba(75, 207, 144,.9) ;
+        }
+    }
+    &.lite_blue_btn{
+        background:rgba(98, 118, 247,1) ;
+        &:hover{
+            background:rgba(98, 118, 247,.9) ;
+        }
+    }
+    &.Cyan_btn{
+        background:rgba(32, 213, 238,1) ;
+        &:hover{
+            background:rgba(32, 213, 238,.9) ;
+        }
+    }
+    &:hover{
+        // @extend %gradient_1;
+        color: $white;
+        // box-shadow: 0px 5px 10px rgba(108, 39, 255, 0.25);
+    }
+}
+
+.badge_1{
+    background: rgba(75, 207, 144,.1);
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #4BCF90 !important;
+    border: 0;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 7px 21px;
+    white-space: nowrap;
+    line-height: 1.2;
+    text-transform: capitalize;
+    &:hover{
+        background: rgba(75, 207, 144,.15);
+    }
+}
+.badge_2{
+    background: rgba(255, 109, 104,.1);
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #FF6D68 !important;
+    border: 0;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 7px 21px;
+    white-space: nowrap;
+    line-height: 1.2;
+    text-transform: capitalize;
+    &:hover{
+        background: rgba(255, 109, 104,.15);
+    }
+}
+.badge_3{
+    background:rgba(255, 173, 31,.1);
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #FFAD1F !important;
+    border: 0;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 7px 21px;
+    white-space: nowrap;
+    line-height: 1.2;
+    text-transform: capitalize;
+    &:hover{
+        background:rgba(255, 173, 31,.1);
+    }
+}
+.badge_4{
+    background:rgba(255, 109, 104,.10);
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #FF6D68 !important;
+    border: 0;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 7px 21px;
+    white-space: nowrap;
+    line-height: 1.2;
+    text-transform: capitalize;
+    &:hover{
+        background:rgba(255, 109, 104,.10);
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                                 TAB BUTTON                                 */
+/* -------------------------------------------------------------------------- */
+.pos_tab_btn{
+    ul{
+        li{
+            a{
+              color: #415094;
+              font-size: 12px;
+              font-weight: 500;
+              background: #FFFFFF;
+              border-radius: 30px;
+              display: inline-block;
+              transition: .3s;
+              padding: 7px 23px;
+              white-space: nowrap;
+              border: 1px solid #7c32ff;
+              text-transform: uppercase;
+              line-height: 16px;
+              @media #{$small_mobile} {
+                  margin-bottom: 10px;
+              }
+              &:hover{
+                @extend %gradient_1;
+                  color: #fff;
+                  border-color: transparent;
+              }
+              &.active{
+                  @extend %gradient_1;
+                  color: #fff;
+                  border-color: transparent;
+              }
+            }
+            &:not(:last-child){
+                margin-right: 12px;
+            }
+        }
+    }
+}
+
+.primary-btn.primary-circle{
+    width: 32px;
+    height: 32px;
+    border-radius: 50% !important;
+    padding: 0 !important;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 0 !important;
+    i{
+        margin: 0;
+    }
+}
+

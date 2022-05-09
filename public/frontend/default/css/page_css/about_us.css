@@ -1,0 +1,37 @@
+
+
+ .benefit_img_div {
+     height: 65px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     position: relative;
+     justify-content: left;
+ }
+ .benefit_img_div img {
+     max-width: 100%;
+     max-height: 60px;
+ }
+ .benefits_content .single_benefits_content {
+     padding-right: 70px;
+ }
+ .about_img {
+     max-height: 600px;
+     max-width: 545px;
+     display: flex;
+     position: relative;
+     align-items: center;
+     justify-content: left;
+ }
+ .about_img img{
+     max-height: 600px;
+     max-width: 545px;
+ }
+ @media (max-width: 575.98px) {
+     .about_img img{
+         max-height: 450;
+         max-width: 300px;
+     }
+ }
+
+

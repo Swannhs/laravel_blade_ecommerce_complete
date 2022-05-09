@@ -1,0 +1,13 @@
+{
+    "name": "GST",
+    "alias": "gst",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GST\\Providers\\GSTServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

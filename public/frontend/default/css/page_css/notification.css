@@ -1,0 +1,11 @@
+.dashboard_part .account_details form {
+    background-color: #fff !important;
+}
+
+@media (max-width: 991px) {
+
+    /* line 87, /Applications/MAMP/htdocs/amazcart/amazcart/scss/_cart.scss */
+    .cart_part tbody td {
+        display: table-cell;
+    }
+}

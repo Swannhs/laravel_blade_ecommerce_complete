@@ -1,0 +1,82 @@
+.email_Template_lang_header{
+    display: flex;
+    justify-content: space-between;
+    @media #{$small_mobile} {
+        display: block;
+    }
+    .lang_header_left{
+        @media #{$small_mobile} {
+            display: block !important;
+        }
+        .CRM_dropdown{
+            @media #{$small_mobile} {
+                margin: 10px 0 ;
+            }
+            button{
+                border: 0 !important;
+                color: #7C32FF;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+    .lang_header_right{
+        span{
+            font-size: 14px;
+            color: #7C32FF;
+            font-weight: 400;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.tab_marge_wrap{
+    background: #F5F7FB;
+    border-radius: 10px;
+    padding: 40px;
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    left: 50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    margin-bottom: 30px;
+    @media #{$small_mobile} {
+        left: 0;
+        right: 20px;
+        padding: 15px;
+    }
+    &.tab_marge_wrap_active{
+        opacity: 1;
+        visibility: visible;
+    }
+    @media #{'(min-width: 1700px)'} {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .single_marge{
+        margin-bottom: 20px;
+        ul{
+            li{
+                display: flex;
+                line-height: 38px;
+                @media #{$small_mobile} {
+                    flex-direction: column;
+                }
+                span{
+                    flex: 0 0 50%;
+                    font-size: 14px;
+                    color: #415094;
+                    font-weight: 400;
+                    &.link_text{
+                        color:#4A9DFF ;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "SidebarManager",
+    "alias": "sidebarmanager",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SidebarManager\\Providers\\SidebarManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,5 @@
+@media (max-width: 1024px) {
+    .refund_disputes_content .disputes_content_progress .disputes_content_item a {
+        margin-top: 0px;
+    }
+}

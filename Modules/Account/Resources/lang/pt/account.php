@@ -1,0 +1,20 @@
+<?php  
+return [
+   'Account'=>'Conta',
+   'Chart Of Accounts'=>' Carta de contas',
+   'Bank Accounts'=>' Contas bancárias',
+   'Incomes'=>' Rendas',
+   'Expenses'=>' Despesas',
+   'Parent Account'=>' Conta do pai',
+   'Name'=>' Nome',
+   'Code'=>' Código',
+   'Type'=>' Tipo',
+   'Description'=>' Descrição',
+   'Default for'=>' Opte para',
+   'Amount'=>' Uma quantidade',
+   'Transaction date'=>' Data da transação',
+   'Profit'=>' Lucro',
+   'From The Beginning'=>' Desde o início',
+   'Balance'=>' Equilíbrio',
+   'Opening Balance'=>' Equilíbrio de abertura',
+];

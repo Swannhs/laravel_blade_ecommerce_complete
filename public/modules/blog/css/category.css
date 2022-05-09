@@ -1,0 +1,26 @@
+
+#addImg{
+    height: auto;
+    max-width: 100%;
+    max-height: 150px;
+}
+.img_div {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.list_img_div {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.listImg {
+    max-width: 100%;
+    height: auto;
+    max-height: 60px;
+}
+

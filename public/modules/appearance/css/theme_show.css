@@ -1,0 +1,33 @@
+
+.img_div img {
+    height: auto;
+    width: 100%;
+}
+
+.name_info_div {
+    margin-top: 15px;
+}
+
+.name_info_div h2 {
+    font-size: 25px;
+}
+
+.name_info_div p {
+    margin-left: 10px;
+}
+
+.theme_description_div {
+    margin-top: 15px;
+}
+
+.tag_div {
+    border-top: 3px solid #eee;
+    margin-top: 20px;
+    padding-top: 10px;
+
+}
+.p_b_80{
+    padding-bottom: 80px;
+}
+
+

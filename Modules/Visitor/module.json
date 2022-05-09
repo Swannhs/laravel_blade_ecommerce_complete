@@ -1,0 +1,13 @@
+{
+    "name": "Visitor",
+    "alias": "visitor",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Visitor\\Providers\\VisitorServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

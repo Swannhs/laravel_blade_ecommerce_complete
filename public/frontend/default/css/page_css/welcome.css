@@ -1,0 +1,119 @@
+
+
+
+ .brand_name{
+   font-weight: 500!important;
+   color: #222!important;
+ }
+ .brand_offer{
+   color: #8f8f8f!important;
+   font-weight: 300!important;
+   font-size: 11px!important;
+   text-transform: capitalize!important;
+ }
+
+ .modal-footer .btn_2 {
+   border: 1px solid #d7dbe3;
+   color: #222 !important;
+   padding: 14.5px 39px;
+   }
+
+   .amazcart_lists{
+   -webkit-column-count: 3;
+   -moz-column-count: 3;
+   column-count: 3;
+   -webkit-column-gap: 1.25rem;
+   -moz-column-gap: 1.25rem;
+   column-gap: 1.25rem;
+   orphans: 1;
+   widows: 1;
+
+   }
+   .amazcart_lists ul{
+   display: inline-block;
+   width: 100%
+   }
+
+   .review_star_icon i.non_rated {
+   color: #fff !important;
+   -webkit-text-stroke-color: blue;
+   color: transparent;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #ffb400;
+   font-size: 11px;
+ }
+
+ .review_star_icon i {
+   color: #ffb400;
+   font-size: 12px;
+   line-height: 29px;
+ }
+
+ .review_star_icon  {
+   margin-right: 15px;
+ }
+
+ .product_tricker .product_img .socal_icon a i{
+   line-height: 43px!important;
+ }
+
+ .banner_part .single_banner_slider {
+   background-image: none;
+   padding: 0px 15px 0px 15px;
+   background-size: 144% 124%;
+}
+.banner_part .user_cupon {
+ padding: 30px 30px!important;
+}
+.pb-15{
+ padding-bottom: 15px;
+}
+
+.single_feature_slide{
+ min-height: 260px;
+}
+.single_product_item_iner{
+ min-height: 170px;
+}
+
+.colum3 .single_img .single_feature_slide_img {
+   position: relative;
+   overflow: hidden;
+}
+.colum3 .single_img .single_feature_slide_img img {
+   margin: 0 auto;
+   height: auto;
+}
+.slider_img_div {
+   height: 365px;
+   width: 660px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   margin: 0 auto;
+}
+.slider_img_div img {
+   display: block;
+   max-width: 100%;
+   max-height: 365px;
+   width: auto!important;
+}
+
+.header_img_category_div {
+   display: flex;
+   height: 108px;
+   align-items: center;
+   justify-content: center;
+   width: 108px;
+}
+.header_img_category_div img{
+ max-height: 108px;
+}
+
+a.single_feature_slide_img img {
+   max-height: 130px;
+   width: auto!important;
+}
+
+

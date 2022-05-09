@@ -1,0 +1,29 @@
+// <<<<<<<<:::::::::::::::::::::::::table header child ::::::::::::::::::::::::::: >>>>>>>>
+.QA_section.QA_section_heading_custom {
+    .QA_table .table thead tr th:first-child {
+        white-space: nowrap !important;
+        padding-left: 30px !important;
+        &.sorting_asc::after,
+        &.sorting_desc::after,
+        &.sorting_desc::after{
+            display: none !important;
+        }
+        &.sorting::after{
+            display: none !important;
+        }
+    }
+     tbody th{
+        white-space: nowrap;
+    }
+}
+.favourite_icon{
+    padding-left: 6px;
+    i{
+        font-size: 16px;
+        color: #ECEEF4;
+        cursor: pointer;
+        &.selected_favourite{
+            color: #7C32FF;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "ContactRequest",
+    "alias": "contactrequest",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ContactRequest\\Providers\\ContactRequestServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

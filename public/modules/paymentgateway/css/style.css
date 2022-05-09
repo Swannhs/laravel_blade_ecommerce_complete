@@ -1,0 +1,32 @@
+.logo_div {
+    display: flex;
+    height: 100px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border_color);
+}
+.logo_div img{
+    max-width: 95%;
+    max-height: 95px;
+}
+.img_logo_div {
+    display: flex;
+    height: 85px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25px;
+}
+.img_logo_div img {
+    max-width: 100%;
+    max-height: 85px;
+}
+@media (max-width: 1024px){
+    .nav_list{
+        justify-content: center;
+    }
+    .img_logo_div{
+        margin-top: 0px;
+    }
+}

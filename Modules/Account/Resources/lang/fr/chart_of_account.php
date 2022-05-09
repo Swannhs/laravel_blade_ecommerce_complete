@@ -1,0 +1,23 @@
+<?php
+return [
+    'Chart Of Accounts' => 'Diagramme des comptes ',
+    'New Account' => ' Nouveau compte ',
+    'Add As A Parent Account' => ' Ajoutez comme compte de parent ',
+    'Parent account selection will add your account as a sub account' => ' La sélection de compte de parent ajoutera votre compte comme sous compte ',
+    'Select your Expense Account' => ' Choisissez votre note de frais ',
+    'Select your Income Account' => ' Choisissez votre compte de produits ',
+    'Select your Payment method' => ' Choisissez votre méthode de paiement ',
+    'Account code need to be unique. Leave blank for auto generate an unique account code.' => "Le besoin de code de compte d'être unique. Laissez le blanc pour l'automobile pour produire d'un code de compte unique",
+    'Selecting a default Account, will remove previously default account for selected item.' => "La sélection d'un compte de défaut, enlèvera précédemment le défaut expliquent l'article choisi",
+    'Select Default Account For' => ' Le défaut choisi expliquent ',
+    "You can't delete an account which has child element" => "Vous ne pouvez pas supprimer un compte qui a l'élément d'enfant",
+    'The requested chart of account is not found' => "Le diagramme du compte demandé n'est pas trouvé",
+    'The requested chart of account deleted successful' => ' Le diagramme du compte demandé a supprimé réussi ',
+    'The requested chart of account created successful' => ' Le diagramme du compte demandé a créé réussi ',
+    'Income Account' => ' Compte de produits ',
+    'Expense Account' => ' Note de frais ',
+    'Select Account' => ' Compte choisi ',
+    'Payment Method' => ' Méthode de paiement',
+    'Edit Account' => 'Modifier le compte',
+    'The requested chart of account updated successful' => 'Le plan de compte demandé a bien été mis à jour',
+];

@@ -1,0 +1,195 @@
+
+
+.add_new_btn {
+    background-color: #ff0027;
+    border: 1px solid #ff0027;
+    color: #fff !important;
+    display: inline-block;
+    padding: 8px 30px;
+    text-transform: capitalize;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+#basic_info {
+    background-color: #f4f7f9;
+}
+
+#basic_info:last-child {
+    padding: 80px 36px 80px;
+}
+
+.nc_select:after {
+    top: 5px !important;
+}
+
+.dashboard_part .nice-select {
+    height: 40px;
+    line-height: 40px;
+}
+
+.attach_plus_btn {
+    margin-top: 33px;
+    padding: 7px 12px;
+    position: relative;
+    top:-4px;
+}
+
+.primary_file_uploader input {
+    width: 100%;
+    background-color: #fff !important;
+}
+
+.primary_file_uploader button {
+    position: absolute;
+    right: 0;
+    border: 0;
+    top: 33px;
+    right: 35px;
+    padding: 1px 10px;
+    background: #ff0027;
+    z-index: 99;
+    color: #fff;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.msg_subject p {
+    color: red;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.msg_detail {
+    padding: 5px 0px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.file_list a {
+    width: 100%;
+    background: #f4f7f9;
+    padding-left: 15px;
+    padding: 7px 0px 7px 10px;
+    color: #222;
+    display: inline-block;
+}
+
+.created_time_div {}
+
+.profile_img {
+    padding: 10px !important;
+    max-width: 60px !important;
+    border-radius: 100% !important;
+    margin: 0px 0px 0px -15px !important;
+}
+
+.admin_message_div {
+    background-color: #d7dbe3;
+}
+
+.admin_name {
+    font-size: 16px;
+    line-height: 0.3;
+}
+
+.user-text-right {
+    text-align: right;
+}
+
+.customer_img {
+    padding: 10px !important;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.ml-35 {
+    margin-left: 35px;
+}
+
+.customer_attach {
+    background-color: #d7dbe3;
+}
+
+.userThumbImg {
+    height: auto;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.badge_2 {
+    background: rgba(255, 109, 104, 0.1);
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #FF6D68 !important;
+    border: 0;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 7px 21px;
+    white-space: nowrap;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.badge_1 {
+    background: rgba(255, 109, 104, 0.1);
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #FF6D68 !important;
+    border: 0;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 7px 21px;
+    white-space: nowrap;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.list-group-item p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.customerThmubName {
+    line-height: 15px !important;
+}
+
+.last_update {
+    font-size: 14px;
+}
+
+.reply_btn {
+    background-color: #ff0027;
+    border: 1px solid #ff0027;
+    color: #fff !important;
+    display: inline-block;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.ticket_browse{
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-top: 3px;
+}
+.mb_15{
+    margin-bottom: 15px;
+}
+

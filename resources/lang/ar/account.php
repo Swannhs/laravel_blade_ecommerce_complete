@@ -1,0 +1,23 @@
+<?php
+return [
+    'Account' => 'حساب',
+    'Chart Of Accounts' => ' مخطط الحساب',
+    'Bank Accounts' => ' حساب المصرفي',
+    'Incomes' => ' دخل',
+    'Expenses' => 'نفقات',
+    'Parent Account' => ' والد حساب',
+    'Name' => ' إسم',
+    'Code' => ' رمز',
+    'Type' => ' نوع',
+    'Description' => ' وصف',
+    'Default for' => ' تقصير ل',
+    'Amount' => ' مبلغ',
+    'Transaction date' => ' صفقة تاريخ',
+    'Opening Balance' => ' فتحة ميزان',
+    'Balance' => ' ميزان',
+    'Profit' => ' ربح',
+    'From The Beginning' => ' من البداية',
+    'GST / TAX / VAT' => 'ضريبة السلع والخدمات / الضرائب / ضريبة القيمة المضافة',
+    'Main Income Account' => 'حساب الدخل الرئيسي',
+    'Total Product Wise Tax' => 'إجمالي ضريبة المنتج الحكيمة',
+];

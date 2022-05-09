@@ -1,0 +1,958 @@
+/* line 238, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb-85 {
+    margin-bottom: 85px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 238, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+    .mb-85 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 238, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+    .mb-85 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 238, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+    .mb-85 {
+        margin-bottom: 40px;
+    }
+}
+
+/* line 250, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb-65 {
+    margin-bottom: 65px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 250, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+    .mb-65 {
+        margin-bottom: 20px;
+    }
+}
+
+/* line 256, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mt-80 {
+    margin-top: 80px;
+}
+
+/* line 259, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_10 {
+    margin-bottom: 10px;
+}
+
+/* line 262, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_15 {
+    margin-bottom: 15px;
+}
+
+/* line 265, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+/* line 268, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_23 {
+    margin-bottom: 23px;
+}
+
+/* line 271, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_25 {
+    margin-bottom: 25px;
+}
+
+/* line 274, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_30 {
+    margin-bottom: 30px;
+}
+
+/* line 277, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_35 {
+    margin-bottom: 35px;
+}
+
+/* line 280, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+/* line 283, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_45 {
+    margin-bottom: 45px;
+}
+
+/* line 286, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_37 {
+    margin-bottom: 37px;
+}
+
+/* line 289, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_50 {
+    margin-bottom: 50px;
+}
+
+/* line 292, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_55 {
+    margin-bottom: 55px;
+}
+
+/* line 295, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_60 {
+    margin-bottom: 60px;
+}
+
+/* line 298, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_70 {
+    margin-bottom: 70px;
+}
+
+/* line 301, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_76 {
+    margin-bottom: 76px;
+}
+
+/* line 304, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_80 {
+    margin-bottom: 80px;
+}
+
+/* line 308, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mt_10 {
+    margin-top: 10px;
+}
+
+/* line 311, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mt_20 {
+    margin-top: 20px;
+}
+
+/* line 314, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mt_10 {
+    margin-top: 10px;
+}
+
+/* line 317, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mt_30 {
+    margin-top: 30px;
+}
+
+/* line 320, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mt_40 {
+    margin-top: 40px;
+}
+
+/* line 323, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mt_50 {
+    margin-top: 50px;
+}
+
+/* line 326, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mt_60 {
+    margin-top: 60px;
+}
+
+/* line 329, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mt_70 {
+    margin-top: 70px;
+}
+
+/* line 333, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mb_27 {
+    margin-bottom: 27px;
+}
+
+/* line 337, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mr_15 {
+    margin-right: 15px;
+}
+
+/* line 340, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mr_20 {
+    margin-right: 20px;
+}
+
+/* line 343, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mr_30 {
+    margin-right: 30px;
+}
+
+/* line 346, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mr_40 {
+    margin-right: 40px;
+}
+
+/* line 349, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mr_50 {
+    margin-right: 50px;
+}
+
+/* line 352, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.mr_10 {
+    margin-right: 10px;
+}
+
+/* line 355, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.pt_70 {
+    padding-top: 70px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 355, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+    .pt_70 {
+        padding-top: 30px;
+    }
+}
+
+/* line 362, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+.xl_mb_60 {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+    /* line 362, G:/laragon/www/themeforest/LMS/HTML/scss/_reset.scss */
+    .xl_mb_60 {
+        margin-bottom: 60px;
+    }
+}
+/* line 152, G:/laragon/www/themeforest/LMS/HTML/scss/_title.scss */
+.section__title4 .subheading_text {
+    display: block;
+    font-size: 16px;
+    color: #fb1159;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* line 159, G:/laragon/www/themeforest/LMS/HTML/scss/_title.scss */
+.section__title4 h3 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #202e3b;
+    margin-bottom: 9px;
+    line-height: 1.38;
+}
+
+/* line 165, G:/laragon/www/themeforest/LMS/HTML/scss/_title.scss */
+.section__title4 h3 span {
+    text-transform: uppercase;
+}
+
+@media (max-width: 767.98px) {
+    /* line 159, G:/laragon/www/themeforest/LMS/HTML/scss/_title.scss */
+    .section__title4 h3 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 159, G:/laragon/www/themeforest/LMS/HTML/scss/_title.scss */
+    .section__title4 h3 {
+        font-size: 30px;
+    }
+}
+
+/* line 175, G:/laragon/www/themeforest/LMS/HTML/scss/_title.scss */
+.section__title4 p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #373737;
+}
+
+/* line 180, G:/laragon/www/themeforest/LMS/HTML/scss/_title.scss */
+.section__title4.margin_50 {
+    margin-bottom: 47px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 180, G:/laragon/www/themeforest/LMS/HTML/scss/_title.scss */
+    .section__title4.margin_50 {
+        margin-bottom: 30px;
+    }
+}
+
+/* line 186, G:/laragon/www/themeforest/LMS/HTML/scss/_title.scss */
+.section__title4.margin_52 {
+    margin-bottom: 52px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 186, G:/laragon/www/themeforest/LMS/HTML/scss/_title.scss */
+    .section__title4.margin_52 {
+        margin-bottom: 30px;
+    }
+}
+
+/* line 192, G:/laragon/www/themeforest/LMS/HTML/scss/_title.scss */
+.section__title4.mb_42 {
+    margin-bottom: 42px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 192, G:/laragon/www/themeforest/LMS/HTML/scss/_title.scss */
+    .section__title4.mb_42 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /* line 198, G:/laragon/www/themeforest/LMS/HTML/scss/_title.scss */
+    .section__title4.mb_40 {
+        margin-bottom: 30px;
+    }
+}
+
+/* line 197, G:/laragon/www/themeforest/LMS/HTML/scss/_become_instarctor.scss */
+.section_padding2 {
+    padding: 116px 0px 90px 0;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 197, G:/laragon/www/themeforest/LMS/HTML/scss/_become_instarctor.scss */
+    .section_padding2 {
+        padding: 80px 0px 50px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    /* line 197, G:/laragon/www/themeforest/LMS/HTML/scss/_become_instarctor.scss */
+    .section_padding2 {
+        padding: 70px 0px 40px 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* line 197, G:/laragon/www/themeforest/LMS/HTML/scss/_become_instarctor.scss */
+    .section_padding2 {
+        padding: 70px 0px 40px 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* line 197, G:/laragon/www/themeforest/LMS/HTML/scss/_become_instarctor.scss */
+    .section_padding2 {
+        padding: 70px 0px 40px 0;
+    }
+}
+/* line 156, G:/laragon/www/themeforest/LMS/HTML/scss/_bradcam.scss */
+.affiliate_bradcam_area {
+    background-color: #f7faff;
+    padding: 135px 0 337px 0;
+    background-image: url(../img/affiliate/affiliate_bg_1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 767.98px) {
+    /* line 156, G:/laragon/www/themeforest/LMS/HTML/scss/_bradcam.scss */
+    .affiliate_bradcam_area {
+        padding: 100px 0;
+    }
+}
+
+/* line 165, G:/laragon/www/themeforest/LMS/HTML/scss/_bradcam.scss */
+.affiliate_bradcam_area .breadcam_text {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* line 168, G:/laragon/www/themeforest/LMS/HTML/scss/_bradcam.scss */
+.affiliate_bradcam_area .breadcam_text span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fb1159;
+    margin-bottom: 16px;
+    display: block;
+}
+
+/* line 175, G:/laragon/www/themeforest/LMS/HTML/scss/_bradcam.scss */
+.affiliate_bradcam_area .breadcam_text h3 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.4;
+    color: #0b0a24;
+    margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+    /* line 175, G:/laragon/www/themeforest/LMS/HTML/scss/_bradcam.scss */
+    .affiliate_bradcam_area .breadcam_text h3 {
+        font-size: 30px;
+    }
+}
+
+/* line 185, G:/laragon/www/themeforest/LMS/HTML/scss/_bradcam.scss */
+.affiliate_bradcam_area .breadcam_text p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #5b5675;
+    margin: 20px 0 43px 0;
+}
+
+@media (max-width: 767.98px) {
+    /* line 185, G:/laragon/www/themeforest/LMS/HTML/scss/_bradcam.scss */
+    .affiliate_bradcam_area .breadcam_text p {
+        font-size: 16px;
+        margin: 15px 0 30px 0;
+    }
+}
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* line 1, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.affiliate_bg {
+    background: #f7faff;
+}
+
+/* line 4, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.affiliate_faq_box {
+    border-bottom: 1px solid #e9eaf0;
+    padding-bottom: 26px;
+    padding-right: 30px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 4, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .affiliate_faq_box {
+        padding-right: 0;
+    }
+}
+
+/* line 11, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.affiliate_faq_box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0b0a24;
+    margin-bottom: 17px;
+}
+
+/* line 17, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.affiliate_faq_box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.63;
+    color: #0b0a24;
+}
+
+/* line 26, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.Affiliate_benefit_boxs::before {
+    content: "";
+    background-image: url(../img/affiliate/shape_img.svg);
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    bottom: 90px;
+    right: 90px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 767.98px) {
+    /* line 26, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .Affiliate_benefit_boxs::before {
+        left: 20px;
+        top: 20px;
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+/* line 45, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.Affiliate_benefit_box {
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.02);
+    border: solid 1px #f8f7fc;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+/* line 51, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.Affiliate_benefit_box img {
+    max-width: 50px;
+}
+
+/* line 54, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.Affiliate_benefit_box h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0b0a24;
+    margin: 30px 0 14px 0;
+}
+
+/* line 60, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.Affiliate_benefit_box p {
+    font-size: 16px;
+    line-height: 1.63;
+    color: #0b0a24;
+    font-weight: 400;
+}
+
+/* line 68, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.Requirements_boxs {
+    display: flex;
+}
+
+@media (max-width: 767.98px) {
+    /* line 68, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .Requirements_boxs {
+        flex-wrap: wrap;
+        grid-gap: 20px;
+    }
+}
+
+/* line 76, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.single_Requirements_box {
+    flex: 50% 0 0;
+    background-color: #fff;
+}
+
+@media (max-width: 767.98px) {
+    /* line 76, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .single_Requirements_box {
+        flex: 100% 0 0;
+    }
+}
+
+/* line 82, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.single_Requirements_box:not(:last-child) {
+    border-right: 1px solid #f0f1f2;
+}
+
+/* line 85, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.single_Requirements_box .Requirements_box_head {
+    padding: 28px 40px 27px 40px;
+    border-bottom: 1px solid #f0f1f2;
+}
+
+@media (max-width: 767.98px) {
+    /* line 85, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .single_Requirements_box .Requirements_box_head {
+        padding: 30px;
+    }
+}
+
+/* line 92, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.single_Requirements_box .Requirements_box_head.style2 h3 {
+    color: #ff1744;
+}
+
+/* line 96, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.single_Requirements_box .Requirements_box_head h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1ebf88;
+    margin-bottom: 0;
+}
+
+/* line 103, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.single_Requirements_box .Requirements_box_body {
+    padding: 35px 68px 40px 40px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 103, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .single_Requirements_box .Requirements_box_body {
+        padding: 30px;
+    }
+}
+
+/* line 109, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.single_Requirements_box .Requirements_box_body ul li {
+    display: flex;
+    grid-gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* line 113, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.single_Requirements_box .Requirements_box_body ul li:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+/* line 116, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.single_Requirements_box .Requirements_box_body ul li .icon {
+    flex: 20px 0 0;
+    position: relative;
+    top: 3px;
+}
+
+/* line 120, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.single_Requirements_box .Requirements_box_body ul li .icon img {
+    width: 100%;
+}
+
+/* line 124, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.single_Requirements_box .Requirements_box_body ul li p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0b0a24;
+    line-height: 1.63;
+    font-family: "Jost", sans-serif;
+    flex: 1 1 0;
+}
+
+/* line 137, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.work_title_area {
+    display: flex;
+    grid-column-gap: 102px;
+    margin-bottom: 56px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 137, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .work_title_area {
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 137, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .work_title_area {
+        grid-column-gap: 30px;
+    }
+}
+
+/* line 148, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.work_title_area .section__title4 {
+    max-width: 383px;
+}
+
+/* line 151, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.work_title_area .work_title_desc {
+    margin-top: 43px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 151, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .work_title_area .work_title_desc {
+        margin-top: 20px;
+    }
+}
+
+/* line 156, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.work_title_area .work_title_desc p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0b0a24;
+    line-height: 1.63;
+}
+
+/* line 161, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.work_title_area .work_title_desc p:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+/* line 168, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.process_widget_box {
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.02);
+    border: solid 1px #f8f7fc;
+    padding: 40px 60px 49px 60px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 168, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .process_widget_box {
+        padding: 30px;
+    }
+}
+
+/* line 177, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.process_widget_box .icon img {
+    max-width: 60px;
+}
+
+/* line 181, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.process_widget_box h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0b0a24;
+    margin: 22px 0 13px 0;
+}
+
+/* line 187, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.process_widget_box p {
+    font-size: 16px;
+    line-height: 1.63;
+    color: #0b0a24;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+/* line 197, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box {
+    border-radius: 5px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    margin-top: -237px;
+    z-index: 10;
+}
+
+@media (max-width: 767.98px) {
+    /* line 197, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box {
+        margin-top: 70px;
+        flex-wrap: wrap;
+    }
+}
+
+/* line 212, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .theme_btn {
+    min-width: 280px;
+    text-align: center;
+}
+
+@media (max-width: 767.98px) {
+    /* line 212, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box .theme_btn {
+        min-width: auto;
+    }
+}
+
+/* line 219, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box::before, .commision_box::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-image: url(../img/affiliate/dots.svg);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+/* line 231, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box::before {
+    left: -50px;
+    top: -47px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 231, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box::before {
+        left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 231, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box::before {
+        left: 0;
+    }
+}
+
+/* line 241, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box::after {
+    right: -50px;
+    bottom: -24px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 241, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box::after {
+        right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 241, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box::after {
+        right: 0;
+    }
+}
+
+/* line 251, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .circle_img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: -40px;
+    right: -40px;
+    z-index: -1;
+}
+
+@media (max-width: 767.98px) {
+    /* line 251, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box .circle_img {
+        right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 251, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box .circle_img {
+        right: 0;
+    }
+}
+
+/* line 264, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .circle_img img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+@media (max-width: 767.98px) {
+    /* line 197, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box {
+        margin-top: 60px;
+    }
+}
+
+/* line 272, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .comissiion_left {
+    padding: 60px 75px 60px 100px;
+    max-width: 480px;
+    border-right: 1px solid #ebf1ff;
+    background: #fff;
+}
+
+@media (max-width: 767.98px) {
+    /* line 272, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box .comissiion_left {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 272, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box .comissiion_left {
+        padding: 30px;
+        max-width: 380px;
+    }
+}
+
+/* line 284, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .comissiion_left h4 {
+    font-size: 30px;
+    color: #202e3b;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* line 290, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .comissiion_left h3 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #202e3b;
+    line-height: 1;
+    margin: 0;
+}
+
+/* line 297, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .comissiion_left p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #373737;
+    line-height: 1.63;
+}
+
+/* line 303, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .comissiion_left .rate_text {
+    margin: 10px 0 35px 0;
+}
+
+/* line 306, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .comissiion_left .Sale_text {
+    margin-bottom: 37px;
+    margin-top: 5px;
+}
+
+/* line 310, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .comissiion_left .discription_text {
+    /*margin-top: 20px;*/
+}
+
+.commision_box .comissiion_left .abc {
+    margin-top: 20px;
+}
+
+
+
+/* line 314, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .comissiion_right {
+    padding: 80px 0 60px 100px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 314, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box .comissiion_right {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /* line 314, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box .comissiion_right {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 314, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .commision_box .comissiion_right {
+        padding: 30px;
+    }
+}
+
+/* line 327, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .comissiion_right .commision_payment_lists {
+    max-width: 325px;
+}
+
+/* line 329, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .comissiion_right .commision_payment_lists .commision_payment_list {
+    display: flex;
+    grid-gap: 20px;
+}
+
+/* line 332, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .comissiion_right .commision_payment_lists .commision_payment_list:not(:last-child) {
+    margin-bottom: 37px;
+}
+
+/* line 340, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .comissiion_right .commision_payment_lists .commision_payment_list .comission_payment_text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0b0a24;
+    margin-bottom: 3px;
+}
+
+/* line 346, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.commision_box .comissiion_right .commision_payment_lists .commision_payment_list .comission_payment_text p {
+    font-size: 15px;
+    line-height: 1.73;
+    color: #0b0a24;
+    margin-bottom: 0;
+}
+
+/* line 358, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+.affliate_faq-section {
+    padding-bottom: 94px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 358, G:/laragon/www/themeforest/LMS/HTML/scss/_affiliate.scss */
+    .affliate_faq-section {
+        padding-bottom: 70px;
+    }
+}
+
+a:hover {
+    color: var(--background_color) !important;
+}
+
+/*----------------------------------------------------*/
+
+/*# sourceMappingURL=style.css.map */

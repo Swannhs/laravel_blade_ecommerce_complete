@@ -1,0 +1,274 @@
+.custom_text_link{
+    font-size: 14px;
+    color: #4A9DFF !important;
+    font-weight: 400;
+    &:hover{
+        color: $base_color !important;
+    }
+}
+.custom_nav{
+    display: block !important;
+    li{
+        margin-bottom: 20px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        a{
+            font-size: 14px;
+            font-weight: 400;
+            color: $base_color;
+            padding: 0;
+            &:hover{
+                color: #7C32FF;
+            }
+            &.active{
+                color: #7C32FF;
+            }
+        }
+    }
+}
+
+.permission_list{
+    li{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        p{
+            font-size: 13px;
+            color: $base_color;
+            font-weight: 400;
+        }
+    }
+    &.list_mb_15{
+        li{
+            margin-bottom: 10px;
+        }
+    }
+    &.list_mb_18{
+        li{
+            margin-bottom: 12px;
+        }
+    }
+    &.list_mb_13{
+        li{
+            margin-bottom: 7px;
+        }
+    }
+    &.sms_list{
+        display: flex !important;
+        flex-wrap: wrap;
+        li{
+            margin-right: 50px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+    &.permission_flexStart{
+        li{
+            align-items: flex-start;
+            .primary_checkbox{
+                margin-top: 4px;
+            }
+        }
+    }
+    &.column_list{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            margin-right: 20px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.about_list_tab{
+    .single_about_list{
+        display: flex;
+        border-bottom: 1px solid #ECEEF4;
+        flex-wrap: wrap;
+        padding: 18px 0;
+        .single_about_list_text{
+            flex: 50% 0 0;
+            // margin-bottom: 19px;
+            // margin-top: 18px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #828BB2;
+            white-space: nowrap;
+            a{
+                color: #7C32FF;
+            }
+        }
+    }
+}
+
+.General_system_wrap_area{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-gap: 30px;
+    @media #{$small_mobile} {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    @media #{$large_mobile} {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .single_system_wrap{
+        .single_system_wrap_inner{
+            background: #F5F7FB;
+            border-radius: 10px;
+            padding: 25px 30px;
+            margin-bottom: 30px;
+            .logo {
+                text-align: left;
+                span{
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: $base_color;
+                    
+                }
+            }
+            .logo_img{
+                margin-top: 50px;
+                margin-bottom: 30px;
+                img{
+
+                }
+            }
+            .update_logo_btn button{
+                position: relative;
+                overflow: hidden;
+                font-size: 12px;
+                margin-bottom: 13px;
+                input{
+                    position: absolute;
+                    width: 100%;
+                    left: 0;
+                    top: 0;
+                    opacity: 0;
+                    height: 100%;
+                    cursor: pointer;
+                }
+            }
+            .remove_logo{
+                font-size: 12px;
+                color: #828BB2;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.bg_preview{
+    width: 70px;
+    height: 39px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.bg_preview_1{
+    background-image: url(../img/preview_1.png);
+}
+.bg_preview_2{
+    background: #4A9DFF;
+}
+
+.color_wraP{
+    font-size: 12px;
+    font-weight: 400;
+    color: #828BB2;
+    .bg_preview_small{
+        width: 27px;
+        height: 27px;
+        margin-right: 8px;
+        background: #EAEAEA;
+    }
+}
+
+
+.accordion_custom{
+    h4{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+    .card{
+        margin-bottom: 15px;
+        border: 0;
+        overflow: visible;
+        background: transparent ;
+        .card-header{
+            border: 0;
+            padding: 0;
+            border-radius: 30px !important;
+            h2{
+                padding: 0;
+                
+                a{
+                    padding: 0;
+                    font-size: 14px;
+                    font-weight: 500;
+                    width: 100%;
+                    text-align: left;
+                    position: relative;
+                    position: relative;
+                    padding: 13px 20px;
+                    background: linear-gradient(90deg, #7C32FF 0.47%, #C738D8 100%);
+                    box-shadow: 0px 5px 10px rgba(108, 39, 255, 0.25);
+                    color: #fff;
+                    @include transition(.3s);
+                    border: 0;
+                    @include border-radius(30px);
+                    // border: 1px solid transparent;
+                    @media #{$small_mobile} {
+                    }
+                    &::before{
+                        content: "\e622";
+                        position: absolute;
+                        right: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        font-family: 'themify';
+                        font-size: 14px;
+                        right: 30px;
+                        color: #fff;
+                    }
+                    &.collapsed{
+                        background: #F5F7FB;
+                        color:#415094;
+                        box-shadow: none;
+                        @include border-radius(30px);
+                        &::before{
+                            content: "\e61a";
+                            color: #415094;
+                        }
+                    }
+                    &:focus{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .card-body{
+            padding: 24px 20px 30px 20px;
+            @media #{$small_mobile}{
+                padding: 15px;
+            }
+            p{
+                font-size: 14px;
+                line-height: 26px;
+                color: #555555;
+                font-weight: 300;
+                margin-bottom: 28px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

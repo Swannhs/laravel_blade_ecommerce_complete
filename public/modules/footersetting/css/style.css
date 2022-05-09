@@ -1,0 +1,12 @@
+.dataTables_wrapper .dataTables_filter input {
+    margin-bottom: -8px!important;
+}
+.modal_cancel_btn{
+    padding: 4px 20px;
+}
+#about_description{
+    height: 200px;
+}
+.create_page_btn{
+    color: #ffffff!important;
+}

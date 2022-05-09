@@ -1,0 +1,52 @@
+
+    .min-height-630 {
+        min-height: 630px;
+    }
+
+    #myFrame {
+        -moz-transform: scale(0.80);
+        -moz-transform-orgin: 0 0;
+        -o-transform: scale(0.80);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.80);
+        -webkit-transform-origin: 0 0;
+        position: absolute;
+        height: 130%;
+        width: 120%;
+    }
+
+    @media (max-width: 1440px) {
+        #myFrame {
+            -moz-transform: scale(0.60);
+            -moz-transform-orgin: 0 0;
+            -o-transform: scale(0.60);
+            -o-transform-origin: 0 0;
+            -webkit-transform: scale(0.60);
+            -webkit-transform-origin: 0 0;
+            position: absolute;
+            height: 170%;
+            width: 165%;
+        }
+    }
+    #hide_for_top_bar{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    @media (max-width: 780px) {
+        .iframe_div{
+            min-height: 900px;
+        }
+        #myFrame {
+            width: 125%;
+        }
+    }
+    @media (max-width: 540px) {
+        .iframe_div{
+            min-height: 900px;
+        }
+        #myFrame {
+            width: 155%;
+        }
+    }
+
+

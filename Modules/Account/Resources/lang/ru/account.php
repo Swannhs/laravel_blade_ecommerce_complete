@@ -1,0 +1,20 @@
+<?php  
+return [
+   'Account'=>'Счет',
+   'Chart Of Accounts'=>' Диаграмма счетов',
+   'Bank Accounts'=>' Банковские счеты',
+   'Incomes'=>' Доходы',
+   'Expenses'=>' Расходы',
+   'Parent Account'=>' Счет родителя',
+   'Name'=>' Имя',
+   'Code'=>' Код',
+   'Type'=>' Тип',
+   'Description'=>' Описание',
+   'Default for'=>' Не выполните обязательство для',
+   'Amount'=>' Количество',
+   'Transaction date'=>' Дата сделки',
+   'Profit'=>' Выгода',
+   'From The Beginning'=>' С самого начала',
+   'Balance'=>' Баланс',
+   'Opening Balance'=>' Начальное сальдо',
+];

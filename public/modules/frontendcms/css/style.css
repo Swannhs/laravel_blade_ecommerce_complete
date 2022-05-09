@@ -1,0 +1,13 @@
+.aboutUsImg {
+    width: 35%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.mb-70 {
+    margin-bottom: 70px;
+}
+.preview_btn{
+    line-height: 30px!important;
+    margin-top: 22px!important;
+}

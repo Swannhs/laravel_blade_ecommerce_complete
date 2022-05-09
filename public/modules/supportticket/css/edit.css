@@ -1,0 +1,35 @@
+ .custom_plus_btn {
+     padding: 3px 7px 3px 14px;
+ }
+
+ .mt-32 {
+     margin-top: 32px;
+ }
+
+ .attach_data {
+     padding: 10px 5px;
+     background: #eceef4;
+     border-radius: 10px;
+     margin-bottom: 5px;
+ }
+
+ .attach_file_name {
+     color: #828BB2;
+     font-size: 14px;
+     margin-left: 5px;
+ }
+
+ .attach_delete_btn {
+     padding: 0px 6px;
+     background: linear-gradient(90deg, #7c32ff 0%, #c738d8 51%, #7c32ff 100%);
+     color: #fff;
+     border-radius: 100%;
+     margin-right: 10px;
+ }
+
+ @media (max-width: 1024px) {
+     .btn_margin {
+         padding-left: 0px;
+         padding-right: 0px;
+     }
+ }

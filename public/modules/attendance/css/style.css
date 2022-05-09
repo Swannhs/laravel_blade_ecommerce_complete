@@ -1,0 +1,21 @@
+  .note_input {
+      min-width: 150px;
+  }
+
+  .min-width-150 {
+      min-width: 150px;
+      ;
+  }
+
+  .img_div{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .img_div img{
+    max-width: 100%;
+    max-height: 95%;
+  }

@@ -1,0 +1,23 @@
+<?php
+return [
+    'Chart Of Accounts' => 'Diagramm Rechnungsprüfungen',
+    'New Account' => ' Neues Konto',
+    'Add As A Parent Account' => ' Fügen Sie als Elternteil-Konto hinzu',
+    'Parent account selection will add your account as a sub account' => ' Elternteilkontoauswahl fügt Ihr Konto als Vorkonto hinzu',
+    'Select your Expense Account' => ' Wählen Sie Ihre Auslagenrechnung vor',
+    'Select your Income Account' => ' Wählen Sie Ihre Ertragsrechnung vor',
+    'Select your Payment method' => ' Wählen Sie Ihre Zahlungsmethode vor',
+    'Account code need to be unique. Leave blank for auto generate an unique account code.' => ' Kontoschlüsselbedarf, einzigartig zu sein. Lassen Sie freien Raum für Auto, einen einzigartigen Kontoschlüssel zu erzeugen.',
+    'Selecting a default Account, will remove previously default account for selected item.' => ' Das Vorwählen eines Nichterfüllung Kontos, entfernt vorher Nichterfüllung erklären vorgewähltes Einzelteil.',
+    'Select Default Account For' => ' Ausgewählte Nichterfüllung erklären',
+    "You cann't delete an account which has child element" => ' Sie können ein Konto nicht löschen, das Kinderelement hat',
+    'The requested chart of account is not found' => ' Das erbetene Diagramm des Kontos wird nicht gefunden',
+    'The requested chart of account deleted successful' => ' Das erbetene Diagramm des Kontos löschte erfolgreiches',
+    'The requested chart of account created successful' => ' Das erbetene Diagramm des Kontos schuf erfolgreiches',
+    'Income Account' => ' Ertragsrechnung',
+    'Expense Account' => ' Auslagenrechnung',
+    'Select Account' => ' Ausgewähltes Konto',
+    'Payment Method' => ' Zahlungs-Methode',
+    'Edit Account' => 'Konto bearbeiten',
+    'The requested chart of account updated successful' => 'Der angeforderte Kontenplan wurde erfolgreich aktualisiert',
+];

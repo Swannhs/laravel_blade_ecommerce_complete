@@ -1,0 +1,12 @@
+
+  .avatar_div {
+      display: flex;
+      height: 100px;
+      width: 100px;
+      align-items: center;
+      justify-content: center;
+  }
+  #logoImg{
+      max-height: 100px;
+      max-width: 100%;
+  }

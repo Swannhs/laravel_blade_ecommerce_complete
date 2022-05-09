@@ -1,0 +1,23 @@
+<?php
+return [
+    'Select your Expense Account' => 'Pilih Akaun Perbelanjaan',
+    'Chart Of Accounts' => ' Rekening Carta',
+    'New Account' => ' Akaun Baru',
+    'Add As A Parent Account' => ' Tambah Sebagai Akaun Ibu Bapa',
+    'Parent account selection will add your account as a sub account' => ' Akaun induk pilihan akan menambahkan akaun anda sebagai sub akaun',
+    'Select your Income Account' => ' Pilih Akaun Pendapatan anda',
+    'Account code need to be unique, Leave blank for auto generate an unique account code' => ' Kod akaun perlu unik, Biarkan kosong untuk menjana auto akaun unik kod',
+    'Selecting a default Account, will remove previously default account for selected item' => ' Memilih Akaun lalai akan mengalih keluar akaun lalai untuk sebelumnya item dipilih',
+    'Select Default Account For' => ' Pilih Akaun Lalai Untuk',
+    "You can\'t delete an account which has child element" => ' Anda tidak boleh menghapuskan akaun yang mempunyai unsur anak',
+    'The requested chart of account is not found' => ' Carta yang diminta akaun tidak ditemui',
+    'The requested chart of account deleted successful' => ' Carta yang diminta akaun dihapuskan berjaya',
+    'The requested chart of account created successful' => ' Carta yang diminta akaun dicipta berjaya',
+    'Income Account' => ' Pendapatan Akaun',
+    'Expense Account' => ' Akaun Perbelanjaan',
+    'Select Account' => ' Pilih Akaun',
+    'Payment Method' => ' Kaedah Bayaran',
+    'Select your Payment method' => ' Pilih kaedah Pembayaran anda',
+    'Edit Account' => 'Edit Akaun',
+    'The requested chart of account updated successful' => 'Carta akaun yang diminta dikemas kini berjaya',
+];

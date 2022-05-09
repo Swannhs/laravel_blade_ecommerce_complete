@@ -1,0 +1,140 @@
+
+
+.deals_end_count {
+    display: flex;
+    align-items: center;
+}
+
+.deals_end_count .single_count:not(:last-child) {
+    margin-right: 60px;
+}
+
+@media (max-width: 991px) {
+    .deals_end_count .single_count:not(:last-child) {
+        margin-right: 25px;
+    }
+}
+
+.deals_end_count .single_count > span {
+    font-size: 40px;
+    font-weight: 700;
+    display: block;
+    color: #222;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+@media (max-width: 991px) {
+    .deals_end_count .single_count > span {
+        font-size: 25px;
+    }
+}
+
+.deals_end_count .single_count > span span {
+    font-weight: 400;
+    position: absolute;
+    top: -5px;
+    left: -16px;
+}
+
+@media (max-width: 991px) {
+    .deals_end_count .single_count > span span {
+        top: -3px;
+        left: -10px;
+    }
+}
+
+.deals_end_count .single_count .count_title {
+    font-size: 14px;
+    font-weight: 400!important;
+    color: #676E8B;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.bradcam_bg_2 {
+    background-image: url(../img/banner/bradcam_bg_2.jpg);
+}
+
+.breadcrumb_area {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+}
+
+.breadcrumb_area .bradcam_text {
+    width: 100%;
+}
+
+.breadcrumb_area .bradcam_text h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+}
+
+@media (max-width: 991px) {
+    .breadcrumb_area .bradcam_text h3 {
+        font-size: 30px;
+    }
+}
+
+.breadcrumb_area .bradcam_text p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.breadcrumb_area .bradcam_text p a {
+    color: #000;
+}
+.bannerDiv{
+    padding: 40px 0 0!important;
+    background-color: {{$Flash_Deal->background_color}}!important;
+}
+.countdownDiv{
+    margin-bottom: 65px!important;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+
+
+  .end_text{
+      color: {{$Flash_Deal->text_color}}!important;
+  }
+.single_count span{
+    color: {{$Flash_Deal->text_color}}!important;
+}
+.product_tricker .product_text p {
+    color: {{$Flash_Deal->text_color}}!important;
+}
+
+.review_star_icon i.non_rated {
+    color: #fff !important;
+    -webkit-text-stroke-color: blue;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffb400;
+    font-size: 11px;
+  }
+
+  .review_star_icon i {
+    color: #ffb400;
+    font-size: 12px;
+    line-height: 29px;
+  }
+
+  .review_star_icon  {
+    margin-right: 15px;
+  }
+
+  .breadcrumb_area{
+      background-size: contain;
+  }
+

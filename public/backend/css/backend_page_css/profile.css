@@ -1,0 +1,31 @@
+
+
+.QA_section .QA_table tbody th a,
+.QA_section .QA_table tbody td a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff !important;
+}
+
+a.primary-btn.radius_30px.mr-10.fix-gr-bg.add_new_address.white {
+    color: #fff;
+}
+div#avatar_preview_div {
+    display: flex;
+    height: 130px;
+    width: 130px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border_color);
+}
+#avatar_preview{
+    max-width: 95%;
+    max-height: 125px;
+}
+#make_dft_shipping, #make_dft_billing{
+    color: #415094;
+    font-size: 15px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+

@@ -1,0 +1,16 @@
+
+.dashboard_part .account_details form {
+    background-color: #fff !important;
+}
+@media (max-width: 991px) {
+    .cart_part tbody td {
+        display: table-cell;
+        white-space: nowrap;
+    }
+}
+@media (max-width: 768px) {
+    p.mt-200 {
+        margin-top: 65px!important;
+    }
+}
+

@@ -1,0 +1,26 @@
+.grid_template{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.border_top_1px{
+    border-top: 1px solid #ECEEF4;
+}
+
+.staf_thumb{
+    max-width:230px ;
+}
+
+
+// role__member 
+.role__member{
+    padding: 13px 20px;
+    border: 1px solid #ECEEF4;
+    border-radius: 30px;
+    .single__role_member{
+        display: flex;
+    }
+    .single__role_member:not(:last-child){
+        margin-bottom: 15px;
+    }
+}

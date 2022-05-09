@@ -1,0 +1,17 @@
+
+.img-size{
+    max-width: 100%;
+    max-height: 60px;
+    height: auto;
+}
+.logo_div {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+

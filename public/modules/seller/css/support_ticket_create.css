@@ -1,0 +1,15 @@
+
+.custom_plus_btn {
+    padding: 3px 8px 3px 12px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+@media (max-width: 1024px){
+    .btn_margin{
+        padding-left:0px;
+        padding-right:0px;
+    }
+}

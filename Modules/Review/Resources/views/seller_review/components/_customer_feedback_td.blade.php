@@ -1,0 +1,1 @@
+<p><strong>{{$review->review}}</strong></p>

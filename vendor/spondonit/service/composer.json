@@ -1,0 +1,25 @@
+{
+    "name": "spondonit/service",
+    "description": "Basic Service Provider for Spondonit application",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "spondonit",
+        "email": "hello@spondonit.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SpondonIt\\Service\\": "src/"
+        },
+        "files": ["helpers/helper.php"]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SpondonIt\\Service\\SpondonItServiceProvider"
+            ]
+        }
+    }
+}

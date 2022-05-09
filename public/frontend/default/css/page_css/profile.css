@@ -1,0 +1,27 @@
+
+.mt-10{
+    margin-top:10px!important;
+}
+.list{
+    min-height: 100px;
+    max-height: 350px;
+    overflow: scroll!important;
+    scroll-behavior: smooth!important;
+}
+#address_list a{
+    color: #222;
+}
+.customer_img{
+    height: 150px;
+    width: 150px
+}
+#avaterShow{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.dibeider{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+

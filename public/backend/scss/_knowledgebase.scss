@@ -1,0 +1,62 @@
+.knowledge_view{
+    .main-title{
+        margin-bottom: 5px;
+    }
+    .knowledge_agree{
+        margin-top: 10px;
+    }
+    .arrow_button{
+        margin-bottom: 20px;
+        i{
+            font-size: 18px;
+            color: #C4C4C4;
+            font-weight: 900;
+            cursor: pointer;
+        }
+    }
+    p{
+
+        &.knowledge_text{
+            font-size: 14px;
+            line-height: 26px;
+            color: #415094;
+            margin-bottom: 20px;
+            &.message_txt{
+                span{
+                    display: block;
+                }
+            }
+        }
+        &.date_links{
+            font-size: 12px;
+            color: #828BB2;
+            font-weight: 400;
+            margin-bottom: 15px;
+            a{
+                color: #415094;
+                margin-right: 5px;
+            }
+            &.date_links2{
+                margin-bottom: 34px;
+            }
+        }
+        &.knowledge_view_helpful{
+            font-size: 12px;
+            color: #828BB2;
+        }
+    }
+    .share_and_rating_inner_icon{
+        .favourite_icon{
+            margin-right: 20px;
+        }
+        .favourite_icon_share{
+            cursor: pointer;
+            i{
+                font-size: 14px;
+                color: #C4C4C4;
+                font-weight: 900;
+                transform: rotate(180deg);
+            }
+        }
+    }
+}

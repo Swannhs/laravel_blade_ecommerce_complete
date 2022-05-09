@@ -1,0 +1,29 @@
+
+  .product_sku_name{
+      padding-top: 32px!important;
+  }
+  .sku_price_td{
+      padding-left: 15px!important;
+  }
+  .sku_delete_td{
+      cursor: pointer;
+      padding-top: 28px!important;
+  }
+  .thumb_img_div {
+      display: flex;
+      height: 120px;
+      width: 120px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--border_color);
+  }
+  #sellerThumbnailImg{
+      max-width: 60%;
+      max-height: 110px;
+  }
+
+  @media (max-width: 767px){
+      .sku_table{
+          width: 200%;
+      }
+  }

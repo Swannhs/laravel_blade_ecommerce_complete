@@ -1,0 +1,26 @@
+
+table.table-borderless td, table.table-borderless th {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 15px;
+    white-space: nowrap;
+}
+.table-borderless{
+    width: 100%;
+}
+.table_td_div {
+    display: grid;
+    grid-template-columns: 92px auto;
+    grid-gap: 10px;
+    color: #8f8f8f;
+}
+.email_tag{
+    color: var(--base_color);
+}
+
+@media (max-width: 1024px) {
+    .refund_disputes_content .disputes_content_progress .disputes_content_item a {
+        margin-top: 0px;
+    }
+}
+

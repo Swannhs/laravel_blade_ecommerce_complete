@@ -1,0 +1,72 @@
+
+    .add_new_btn {
+        background-color: #ff0027;
+        border: 1px solid #ff0027;
+        color: #fff !important;
+        display: inline-block;
+        padding: 8px 30px;
+        text-transform: capitalize;
+        line-height: 16px;
+        font-size: 13px;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+
+    #basic_info {
+        background-color: #f4f7f9;
+    }
+
+    #basic_info:last-child {
+        padding: 80px 36px 80px;
+    }
+
+    .nc_select:after {
+        top: 5px !important;
+    }
+
+    .dashboard_part .nice-select {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .attach_plus_btn {
+        margin-top: 33px;
+        padding: 7px 12px;
+        position: relative;
+        top: -4px;
+    }
+
+    .primary_file_uploader input {
+        width: 100%;
+        background-color: #fff !important;
+    }
+
+    .primary_file_uploader button {
+        position: absolute;
+        right: 0;
+        border: 0;
+        top: 33px;
+        right: 35px;
+        padding: 1px 10px;
+        background: #ff0027;
+        z-index: 99;
+        color: #fff;
+    }
+
+    .mt-15 {
+        margin-top: 15px;
+    }
+
+    .mt-10 {
+        margin-top: 10px;
+    }
+    .ticket_browse{
+        margin-bottom: 5px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+        margin-top: 3px;
+    }
+    .mb_15{
+        margin-bottom: 15px;
+    }
+

@@ -1,0 +1,38 @@
+
+.product_tricker {
+    background-color: #f4f7f9;
+    padding: 10px;
+}
+.nice-select {
+    width: 100%;
+    height: 40px!important;
+    width: 260px;
+    border-radius: 0;
+    color: #000;
+    line-height: 40px!important;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.review_star_icon i.non_rated {
+color: #fff !important;
+-webkit-text-stroke-color: blue;
+color: transparent;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #ffb400;
+font-size: 11px;
+}
+
+.review_star_icon i {
+color: #ffb400;
+font-size: 12px;
+line-height: 29px;
+}
+
+.review_star_icon  {
+margin-right: 15px;
+}
+.mt-200{
+margin-top: 200px;
+}
+

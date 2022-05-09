@@ -1,0 +1,23 @@
+<?php
+return [
+    'Select your Expense Account' => 'Selecione sua conta de despesa',
+    'Chart Of Accounts' => ' Carta de contas',
+    'New Account' => ' Conta nova',
+    'Add As A Parent Account' => ' Adicione como uma conta do pai',
+    'Parent account selection will add your account as a sub account' => ' A seleção da conta do pai adicionará sua conta como uma conta secundária',
+    'Select your Income Account' => ' Selecione sua conta de renda',
+    'Account code need to be unique, Leave blank for auto generate an unique account code' => ' Necessidade do código de conta de ser original, placa da licença para o automóvel para gerar um código de conta original',
+    'Selecting a default Account, will remove previously default account for selected item' => ' Selecionar uma conta do defeito, removerá previamente o defeito esclarece o artigo selecionado',
+    'Select Default Account For' => ' O defeito seleto esclarece',
+    'You can\'t delete an account which has child element' => ' Você pode \ ‘t suprimir de uma conta que tenha o elemento da criança',
+    'The requested chart of account is not found' => ' A carta de conta pedida não é encontrada',
+    'The requested chart of account deleted successful' => ' A carta de conta pedida suprimiu de bem sucedido',
+    'The requested chart of account created successful' => ' A carta de conta pedida criou bem sucedido',
+    'Income Account' => ' Conta de renda',
+    'Expense Account' => ' Conta de despesa',
+    'Select Account' => ' Conta seleta',
+    'Payment Method' => ' Método do pagamento',
+    'Select your Payment method' => ' Selecione seu método do pagamento',
+    'Edit Account' => 'Editar conta',
+    'The requested chart of account updated successful' => 'O plano de contas solicitado foi atualizado com sucesso',
+];

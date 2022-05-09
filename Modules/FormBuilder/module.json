@@ -1,0 +1,13 @@
+{
+    "name": "FormBuilder",
+    "alias": "formbuilder",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\FormBuilder\\Providers\\FormBuilderServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

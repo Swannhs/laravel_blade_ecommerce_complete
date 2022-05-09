@@ -1,0 +1,21 @@
+{
+    "PageBuilder": {
+        "item_id": "30626608",
+        "migration": [
+            "2021_12_13_112718_create_custom_pages_table.php",
+            "2021_12_13_110634_create_page_builder_permission_table.php"
+        ],
+        "names": [
+
+        ],
+        "versions": [
+            "1.0.0"
+        ],
+        "url": [
+            "https://spondonit.com/contact"
+        ],
+        "notes": [
+            "This is Page Builder module for Amazcart. Thanks for using."
+        ]
+    }
+}

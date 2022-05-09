@@ -1,0 +1,252 @@
+#sidebar {
+    padding-bottom: 30px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background: linear-gradient(90deg, #7c32ff 0%, #c738d8 51%, #7c32ff 100%);
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px
+        linear-gradient(90deg, #7c32ff 0%, #c738d8 51%, #7c32ff 100%);
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.switch::after {
+    top: 6px;
+    left: 6px;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 100%;
+    transition: 1s;
+}
+
+.transfarent-btn {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+#pre-loader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999999999999;
+    overflow: hidden;
+    outline: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.loader {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    animation: animate 0.8s linear infinite;
+    margin-top: 17%;
+    margin-left: 50%;
+    margin-right: 50%;
+    z-index: 10000;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    animation: animate 0.8s linear infinite;
+}
+
+.loader span:nth-child(1) {
+    filter: blur(5px);
+}
+
+.loader span:nth-child(2) {
+    filter: blur(10px);
+}
+
+.loader span:nth-child(3) {
+    filter: blur(25px);
+}
+
+.loader span:nth-child(4) {
+    filter: blur(50px);
+}
+
+.loader:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: #fff;
+    border-radius: 50%;
+
+    background-size: cover;
+}
+
+.review_star {
+    color: #ffb400;
+}
+
+.review_star_icon i.non_rated {
+    color: #fff !important;
+    -webkit-text-stroke-color: blue;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffb400;
+    font-size: 11px;
+}
+
+.review_star_icon i {
+    color: #ffb400;
+    font-size: 12px;
+    line-height: 29px;
+}
+
+.review_star_icon {
+    margin-right: 15px;
+}
+
+.dataTables_processing {
+    font-weight: 500;
+}
+
+.user_avatar_div {
+    display: flex;
+    height: 45px;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--bg_white);
+    overflow: hidden;
+}
+.user_avatar_div img {
+    max-width: 100%;
+    max-height: 35px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.notification-content {
+    color: #828bb2;
+}
+.cs-pointer {
+    cursor: pointer !important;
+}
+.browse_file_label {
+    width: 56.8125px;
+    height: 56.8125px;
+    top: -16.4062px;
+    left: 4.90625px;
+}
+.mb-90 {
+    margin-bottom: 90px !important;
+}
+.w_160 {
+    width: 160px !important;
+}
+.min_height_600 {
+    min-height: 600px !important;
+}
+.update_system_table {
+    width: 100%;
+    box-shadow: none;
+}
+.pl-18 {
+    padding-left: 18px;
+}
+
+.pr_5 {
+    padding-right: 5px;
+}
+.QA_section .QA_table .table {
+    box-shadow: none!important;
+}
+.demo_addons{
+    float: right;
+    margin-right: 30px!important;
+    background: #8232fc;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 10px;
+}
+.sidebar #sidebar_menu li ul li a {
+    display: flex;
+    justify-content: space-between;
+}

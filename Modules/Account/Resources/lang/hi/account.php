@@ -1,0 +1,20 @@
+<?php  
+return [
+   'Account'=>'खाता',
+   'Chart Of Accounts'=>' खातों का चार्ट',
+   'Bank Accounts'=>' बैंक खाते',
+   'Incomes'=>' आय',
+   'Expenses'=>' खर्च',
+   'Parent Account'=>' पैरेंट खाता',
+   'Name'=>' नाम',
+   'Code'=>' कोड',
+   'Type'=>' क़िस्म',
+   'Description'=>' वर्णन',
+   'Default for'=>' डिफ़ॉल्ट',
+   'Amount'=>' राशि',
+   'Transaction date'=>' हस्तांतरण तारीख़',
+   'Profit'=>' लाभ',
+   'From The Beginning'=>' शुरू से प्रारंभ होगा',
+   'Balance'=>' संतुलन',
+   'Opening Balance'=>' संतुलन खोला जा रहा है',
+];

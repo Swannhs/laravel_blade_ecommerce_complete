@@ -1,0 +1,53 @@
+.profile_pic_upload{
+    background: #F5F7FB;
+    border-radius: 10px;
+    padding: 30px 80px 40px 80px;
+    margin-bottom: 30px;
+    @media #{$medium_device} {
+        padding: 30px;
+    }
+    @media #{$small_mobile} {
+        padding: 25px;
+    }
+    @media #{$large_mobile} {
+        padding: 30px 40px;
+    }
+    .logo{
+        span{
+            font-size: 16px;
+            font-weight: 500;
+            color: #415094;
+        }
+    }
+    .remove_logo {
+        font-size: 12px;
+        color: #828BB2;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .logo_img{
+        width: 184px;
+        height: 184px;
+        margin: 25px auto 30px auto;
+        border-radius: 10px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.file_button button{
+    position: relative;
+    overflow: hidden;
+    font-size: 12px;
+    margin-bottom: 13px;
+    input{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        height: 100%;
+        cursor: pointer;
+    }
+}

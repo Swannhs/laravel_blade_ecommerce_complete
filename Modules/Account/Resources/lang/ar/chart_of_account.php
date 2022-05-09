@@ -1,0 +1,23 @@
+<?php
+return [
+    'Chart Of Accounts' => 'مخطط الحساب',
+    'New Account' => ' حساب جديد',
+    'Add As A Parent Account' => ' أضفت كوالد حساب',
+    'Parent account selection will add your account as a sub account' => ' والد حساب سيضيف إنتقاء حسابك كحساب فرعيّ',
+    'Select your Expense Account' => ' انتقيت ك نفقة تكليف حساب',
+    'Select your Income Account' => ' انتقيت ك دخل حساب',
+    'Select your Payment method' => ' انتقيت ك دفع طريقة',
+    'Account code need to be unique. Leave blank for auto generate an unique account code.' => ' حساب رمز حاجة أن يكون فريد. تركت فراغ لسيارة يلد فريد حساب رمز.',
+    'Selecting a default Account, will remove previously default account for selected item.' => ' سيزيل ينتقي تقصير حساب، سابقا تقصير يعلّل ينتقي مادة.',
+    'Select Default Account For' => ' يعلّل تقصير مختار',
+    "You cann't delete an account which has child element" => ' أنت يستطيع لا يمحو حساب أيّ يتلقّى طفل عنصر',
+    'The requested chart of account is not found' => ' لا يؤسّس ال يرجو مخطط الحساب',
+    'The requested chart of account deleted successful' => ' ال يرجو مخطط من حساب يمحو ناجح',
+    'The requested chart of account created successful' => ' خلق ال يرجو مخطط الحساب ناجح',
+    'Income Account' => ' دخل حساب',
+    'Expense Account' => ' نفقة تكليف حساب',
+    'Select Account' => ' انتقيت حساب',
+    'Payment Method' => ' دفع طريقة',
+    'Edit Account' => 'تحرير الحساب',
+    'The requested chart of account updated successful' => 'تم تحديث مخطط الحساب المطلوب بنجاح',
+];

@@ -1,0 +1,53 @@
+
+.benefit_img_custom_style{
+    width: 56.8125px;
+    height: 56.8125px;
+    top: -16.4062px;
+    left: 4.90625px;
+}
+.benefit_img_show{
+    width: 20%;
+    height:auto;
+    border-radius:5px;
+    margin-top: 15px;
+}
+.benefit_description{
+    height: 180px;
+    width:100%;
+    padding:10px;
+}
+.benefit_table{
+    padding: 20px 30px
+    width: 100%;
+}
+.width-60{
+    width: 60px;
+}
+.width-83{
+    width: 83px;
+}
+.cus-poi{
+    cursor: pointer;
+}
+.ml-10{
+    margin-left:10px;
+}
+#benefit-td{
+    cursor: pointer;
+}
+#benefit-td td{
+    padding: 5px 10px 10px 0px;
+}
+.workProcessImg{
+    width: 14%;
+    height:auto;
+    border-radius:5px;
+    margin-top: 15px;
+}
+.workProcessText{
+    height: 180px;
+    width:100%;
+    padding:10px;
+}
+
+

@@ -1,0 +1,147 @@
+/******** main content css here *********/
+// .main_content{
+    
+//     // padding-left: 15%;
+//     padding-left: 270px;
+//     width: 100%;
+//     // padding-top: 135px;
+//     padding-top: 0px !important; 
+//     // background: #fef1f2;
+//     transition: .5s;
+//     // update 
+//     position: relative;
+//     min-height: 100vh;
+//     padding-bottom: 160px;
+//     &.main_content_padding_hide{
+//         padding-left: 0px;
+//         padding-top: 100px !important;
+//     }
+    
+//     @media #{$tab}{
+//         padding: 90px 0 100px 0;
+//     }
+//     @media #{$small_mobile}{
+//         padding: 120px 0 100px 0;
+//     }
+//     @media #{$large_mobile}{
+//         padding: 120px 0 100px 0;
+//     }
+//     @media #{$tab_device}{
+//         padding: 120px 0 100px 0;
+//     }
+//     @media #{$medium_device}{
+//         padding-left: 20%;
+//         // padding-left: 25%;
+//     }
+//     .main_content_iner{
+//         min-height: 68vh;
+//         // margin-bottom: 100px;
+//         transition: .5s;
+//         &.main_content_iner_padding{
+//             @media #{$large_device} {
+//                 padding: 0 30px 0 30px;
+//             }
+//             @media #{$extra_big_screen} {
+//                 padding: 0 60px 0 60px;
+//             }
+//             @media #{$min_1680px} {
+//                 padding: 0 135px 0 135px;
+//             }
+//         }
+//         @media #{$small_mobile} {
+//             margin-bottom: 20px;
+//         }
+//         @media #{$large_mobile} {
+//             // margin-bottom: 50px;
+//         }
+//     }
+// }
+.address_book_hint{
+    p{
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 8px;
+    }
+}
+.single_element{
+    h4{
+        margin-bottom: 30px;
+    }
+    .quick_activity_wrap{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+        margin-bottom: 50px;
+        @media #{$small_mobile}{
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 15px;
+            margin-bottom: 30px;
+        }
+        @media #{$large_mobile}{
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 15px;
+            margin-bottom: 30px;
+        }
+        @media #{$tablet_device}{
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 15px;
+            margin-bottom: 30px;
+        }
+        @media #{$mid_device}{
+            grid-template-columns: repeat(2, 1fr);
+            margin-bottom: 30px;
+        }
+        @media #{$large_device}{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    .single_quick_activity{
+        background-color: $white;
+        border-radius: 10px;
+        @include transform_time(.5s);
+        padding: 18px 30px;
+        position: relative;
+        box-shadow: 0px 10px 15px rgba(235, 215, 241, 0.22);
+        @media #{$small_mobile}{
+            // margin-bottom: 20px;
+            padding: 20px 15px;
+        }
+        @media #{$large_mobile}{
+            // margin-bottom: 20px;
+            padding: 20px 15px;
+        }
+        @media #{$medium_device}{
+            // margin-bottom: 20px;
+        }
+        @media #{$tab_device}{
+            // margin-bottom: 20px;
+        }
+        h3{
+            font-size: 24px;
+            line-height: 40px;
+            margin-bottom: 0;
+            font-weight:500;
+            @include transform_time(.5s);
+            color: $base_color;
+        }
+        p{
+            @include transform_time(.5s);
+        }
+        &:hover{
+            background: $base_color;
+            h3,p{
+                color: #fff;
+            }
+            .quick_activity_icon{
+                background-color: rgba(255, 247, 248,0.2);
+                i{
+                    color: #ffffff;
+                }
+               
+            }
+        }
+    }
+}
+/******** main content css end *********/
+  
+  

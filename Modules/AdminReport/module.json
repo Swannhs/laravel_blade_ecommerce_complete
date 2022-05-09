@@ -1,0 +1,13 @@
+{
+    "name": "AdminReport",
+    "alias": "adminreport",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminReport\\Providers\\AdminReportServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

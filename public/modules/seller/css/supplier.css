@@ -1,0 +1,8 @@
+    table.table {
+        font-weight: 600;
+        color: #415094 !important;
+    }
+
+    .supplier_view td {
+        padding: 1px !important;
+    }

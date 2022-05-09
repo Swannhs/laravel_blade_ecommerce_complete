@@ -1,0 +1,13 @@
+{
+    "name": "InhouseOrder",
+    "alias": "inhouseorder",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InhouseOrder\\Providers\\InhouseOrderServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

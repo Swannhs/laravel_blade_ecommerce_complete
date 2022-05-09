@@ -1,0 +1,122 @@
+.mesonary_role_header {
+    cursor: all-scroll;
+}
+
+.erp_role_permission_area {
+    display: block !important;
+}
+
+.single_permission {
+    margin-bottom: 0px;
+}
+
+.erp_role_permission_area .single_permission .permission_body > ul > li ul {
+    display: grid;
+    margin-left: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+}
+
+.erp_role_permission_area .single_permission .permission_body > ul > li ul li {
+    margin-right: 20px;
+
+}
+
+.mesonary_role_header {
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.single_role_blocks {
+    display: inline-block;
+    background: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+.erp_role_permission_area .single_permission .permission_body > ul > li {
+    padding: 15px 25px 12px 25px;
+}
+
+.erp_role_permission_area .single_permission .permission_header {
+    padding: 20px 25px 11px 25px;
+    position: relative;
+}
+
+@media (min-width: 320px) and (max-width: 1199.98px) {
+    .mesonary_role_header {
+        column-count: 1;
+        column-gap: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .erp_role_permission_area .single_permission .permission_body > ul > li ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px
+        /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+    }
+}
+
+
+.permission_header {
+    position: relative;
+}
+
+.arrow::after {
+    position: absolute;
+    content: "\e622";
+    top: 50%;
+    right: 12px;
+    height: auto;
+    font-family: 'themify';
+    color: #fff;
+    font-size: 18px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 22px;
+}
+
+.arrow.collapsed::after {
+    content: "\e61a";
+    color: #fff;
+    font-size: 18px;
+}
+
+.erp_role_permission_area .single_permission .permission_header div {
+    position: relative;
+    top: -5px;
+    position: relative;
+    z-index: 999;
+}
+
+.erp_role_permission_area .single_permission .permission_header div.arrow {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+}
+
+.erp_role_permission_area .single_permission .permission_header div.arrow i {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.erp_role_permission_area .single_permission .permission_header {
+    padding: 17px 25px 7px 25px;
+    position: relative;
+}
+
+.erp_role_permission_area .single_permission .permission_body > ul > li {
+    padding: 13px 25px 10px 25px;
+}
+
+html[dir="rtl"] .erp_role_permission_area .single_permission .permission_header {
+    padding: 17px 50px 7px 25px;
+    position: relative;
+}

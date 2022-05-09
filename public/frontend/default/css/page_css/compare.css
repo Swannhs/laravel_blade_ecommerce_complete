@@ -1,0 +1,123 @@
+
+
+
+.comparison_lists {
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.comparison_lists li {
+    list-style: none;
+    color: #8f8f8f;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    padding: 12px;
+}
+
+.comparison_lists li:nth-child(2n -1) {
+    background: #F7F8FA;
+}
+
+.compare_product {
+    border: 1px solid #F3F0F0;
+    padding: 0;
+}
+
+.compare_product .compare_product_inner {
+    padding: 10px 10px 20px 10px;
+    border-bottom: 1px solid #F3F0F0;
+    max-height: 450px
+}
+
+.compare_product_active .owl-nav button {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #F3F0F0 !important;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background: #F0F1F3 !important;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top: 20%;
+}
+
+.compare_product_active .owl-nav button.owl-next {
+    left: auto;
+    right: -20px;
+}
+
+.compare_product_active .owl-nav button:hover {
+    background-color: #ff0027 !important;
+    border: 1px solid #ff0027 !important;
+    color: #fff !important;
+}
+
+.compare_product_active .owl-nav button i {
+    line-height: 28px;
+}
+
+.compare_product_active .owl-nav .owl-prev {
+    margin-right: 5px;
+}
+
+.comparing_box_area {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.comparing_box_area .compare_product_descList {
+    flex: 70% 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 1px solid #F3F0F0;
+    border-right: 0;
+}
+
+.comparing_box_area .compare_product_descList .compare_product {
+    border: 0;
+}
+
+.compare_product_carousel {
+    flex: 0 0 70%;
+}
+
+.product_tricker .product_img .socal_icon a i {
+    line-height: 43px !important;
+}
+
+.review_star_icon i.non_rated {
+    color: #fff !important;
+    -webkit-text-stroke-color: blue;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffb400;
+    font-size: 11px;
+}
+
+.review_star_icon i {
+    color: #ffb400;
+    font-size: 12px;
+    line-height: 29px;
+}
+
+.review_star_icon {
+    margin-right: 15px;
+}
+
+.compare_empty {
+    margin-left: 40%;
+}
+
+.reset_compare {
+    font-size: 16px;
+    font-weight: 700;
+    color: #222;
+}
+
+.single_product_list {
+    height: auto!important;
+}

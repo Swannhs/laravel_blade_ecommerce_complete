@@ -1,0 +1,12 @@
+.rtl_ltl_btn{
+    padding: 4px 17px!important;
+}
+svg {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: inline-block;
+}
+.tran_input{
+    min-width:200px;
+}

@@ -1,0 +1,23 @@
+{
+    "FormBuilder": {
+        "item_id": "30626608",
+        "migration": [
+            "2021_12_27_130537_create_form_builder_permission_table.php",
+            "2021_12_27_131929_create_custom_forms_table.php",
+            "2021_12_28_151539_add_others_column_to_users_table.php",
+            "2022_01_02_114714_add_others_field_to_contacts_table.php"
+        ],
+        "names": [
+
+        ],
+        "versions": [
+            "1.0.0"
+        ],
+        "url": [
+            "https://spondonit.com/contact"
+        ],
+        "notes": [
+            "This is Page Builder module for Amazcart. Thanks for using."
+        ]
+    }
+}

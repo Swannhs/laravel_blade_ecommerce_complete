@@ -1,0 +1,181 @@
+
+
+
+.dashboard_part .account_details form {
+    background-color: #fff !important;
+}
+.order_details_status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f7f9;
+    padding: 20px;
+}
+.w-100 {
+    width: 100%!important;
+}
+.order_details_status ul li {
+    list-style: none;
+    text-transform: capitalize;
+    margin-right: 70px;
+}
+.order_details .single_order_part {
+    margin-bottom: 30px;
+}
+.order_details .order_details_iner {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d7dbe3;
+    border-top: 0px solid transparent;
+}
+.order_details .order_item {
+    padding: 40px;
+    border-right: 1px solid #d7dbe3;
+    width: 70%;
+    float: left;
+}
+.order_details .order_item .single_order_item:last-child {
+    margin-bottom: 0;
+}
+.order_details .order_item .single_order_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.order_details .order_item .single_order_item .order_item_name {
+    display: flex;
+    align-items: center;
+}
+.order_details .order_details_btn {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 25px;
+}
+.order_details .order_details_btn .btn_2 {
+    border: 1px solid #d7dbe3;
+    background-color: #fff;
+    color: #222 !important;
+    padding: 10px 29px;
+    width: 225px;
+    text-align: center;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+.btn_2 {
+    color: #fff !important;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 15px 39px;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 500;
+}
+.order_details_status ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.order_details_status .btn_1, .order_details_status .btn_2 {
+    margin-top: 0;
+    padding: 12px 29px;
+    border: 1px;
+}
+
+.order_details .order_item .single_order_item .order_item_name p {
+    margin-left: 20px;
+}
+.pagination_part {
+    margin-top: 20px;
+    border-top: 1px solid #e4e7e9;
+}
+.pagination {
+    margin-bottom: 0;
+    justify-content: center;
+    border-top: 0 solid transparent;
+    border-radius: 0;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+.pagination .active .page-link {
+    color: #222;
+    border-top: 1px solid #222;
+    background-color: transparent;
+    border-color: #222;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    background-color: #fff;
+}
+li.page-item {
+    height: 32px;
+    width: 32px;
+    border-radius: 3px !important;
+    text-align: center !important;
+    line-height: 32px;
+    padding: 0 !important;
+    margin: 0 0 0 10px !important;
+}
+.pagination .page-link {
+    padding: 9px;
+    width: 32px;
+    height: 32px;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background: linear-gradient(
+90deg, var(--gradient_1) 0.47%, var(--gradient_3) 100%) !important;
+    box-shadow: 0px 5px 10px rgb(108 39 255 / 25%) !important;
+    border: 0 !important;
+}
+.product_img_div {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+}
+.product_img_div img{
+    max-width: 100%;
+    max-height: 70px;
+}
+.order_details_status ul li p {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    color: #8f8f8f;
+    font-weight: 300;
+    line-height: 24px;
+    white-space: nowrap;
+}
+@media (max-width: 991px){
+    .order_details_status {
+        display: block;
+    }
+    .order_details_status ul {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .order_details_status ul li {
+        margin-bottom: 10px;
+    }
+    .order_details .order_details_iner {
+        display: inline-block;
+        width: 100%;
+    }
+    .order_details .order_item {
+        width: 100%;
+        padding: 20px;
+        border-right: 0px solid transparent;
+    }
+}
+

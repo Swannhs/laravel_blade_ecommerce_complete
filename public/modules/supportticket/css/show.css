@@ -1,0 +1,55 @@
+
+    .pt-15 {
+        padding-top: 15px !important;
+    }
+
+    .single_tks_view_list p {
+        font-size: 14px;
+        line-height: 26px;
+        color: #415094;
+        font-weight: 400;
+    }
+
+    .custom_plus_btn {
+        padding: 3px 7px 3px 14px;
+        margin-left: -20px;
+    }
+
+    .mt_5 {
+        margin-top: 5px;
+    }
+
+    .msg_attach_file_list {
+        margin-left: 60px;
+    }
+
+    .msg_attach_file_list a {
+        width: 50%;
+        background: #F5F7FB;
+        padding: 10px 10px 10px 10px;
+        margin-right: 5px;
+        border-radius: 5px;
+        color: #415094;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .pt-15 {
+        padding-top: 15px;
+    }
+
+    .action_dropdown_right {
+        position: absolute;
+        transform: translate3d(-43px, 32px, 0px);
+        top: 0px;
+        left: 0px;
+        will-change: transform;
+    }
+    .primary-btn.semi_large2 {
+        line-height: 40px !important;
+    }
+    @media (max-width: 1024px){
+        .btn_margin{
+            padding-right:0px;
+        }
+    }

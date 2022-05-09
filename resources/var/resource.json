@@ -1,0 +1,54 @@
+{
+    "datatable" : {
+        "css" : [
+            "backEnd/vendors/css/jquery.data-tables.css",
+            "backEnd/vendors/css/buttons.dataTables.min.css",
+            "backEnd/vendors/css/rowReorder.dataTables.min.css",
+            "backEnd/vendors/css/responsive.dataTables.min.css"
+        ],
+        "js" : [
+            "backEnd/vendors/js/jquery.data-tables.js",
+            "backEnd/vendors/js/pdfmake.min.js",
+            "backEnd/vendors/js/vfs_fonts.js",
+            "backEnd/vendors/js/jszip.min.js",
+            "backEnd/vendors/js/dataTables.buttons.min.js",
+            "backEnd/vendors/js/dataTables.responsive.min.js",
+            "backEnd/vendors/js/buttons.flash.min.js",
+            "backEnd/vendors/js/buttons.html5.min.js",
+            "backEnd/vendors/js/buttons.colVis.min.js",
+            "backEnd/vendors/js/dataTables.rowReorder.min.js",
+            "vendor/datatables/buttons.server-side.js"
+
+        ]
+    },
+
+    "nice-select" : {
+        "css" : [
+            "backEnd/vendors/css/nice-select.css"
+        ],
+        "js" : [
+            "backEnd/vendors/js/nice-select.min.js"
+        ]
+    },
+    "datepicker" : {
+        "css" : [
+            "backEnd/vendors/css/bootstrap-datepicker.min.css",
+            "backEnd/vendors/css/bootstrap-datetimepicker.min.css",
+            "backEnd/vendors/css/daterangepicker.css"
+        ],
+        "js" : [
+            "backEnd/vendors/js/moment.min.js",
+            "backEnd/vendors/js/bootstrap_datetimepicker.min.js",
+            "backEnd/vendors/js/bootstrap-datepicker.min.js",
+            "backEnd/vendors/js/daterangepicker.min.js"
+        ]
+    },
+    "summernote" : {
+        "css" :[
+            "frontend/vendors/text_editor/summernote-bs4.css"
+        ],
+        "js" : [
+            "frontend/vendors/text_editor/summernote-bs4.js"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Account",
+    "alias": "account",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Account\\Providers\\AccountServiceProvider",
+        "Modules\\Account\\Providers\\ModelObserverProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "Helpers/helper.php"
+    ],
+    "requires": []
+}

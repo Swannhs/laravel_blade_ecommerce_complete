@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "082a78803f487980b7247b04d56f7013",
+    "packages": [
+        {
+            "name": "spondonit/service",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/spn4/service.git",
+                "reference": "9cd9091fe0437fdcb48dcb6a3c2d0748db53ef88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/spn4%2Fservice/repository/archive.zip?sha=9cd9091fe0437fdcb48dcb6a3c2d0748db53ef88",
+                "reference": "9cd9091fe0437fdcb48dcb6a3c2d0748db53ef88",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SpondonIt\\Service\\SpondonItServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SpondonIt\\Service\\": "src/"
+                },
+                "files": [
+                    "helpers/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "spondonit",
+                    "email": "hello@spondonit.com"
+                }
+            ],
+            "description": "Basic Service Provider for Spondonit application",
+            "support": {
+                "issues": "https://gitlab.com/api/v4/projects/23165125/issues"
+            },
+            "time": "2021-05-20T19:39:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "spondonit/service": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

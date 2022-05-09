@@ -1,0 +1,87 @@
+#morris_bar{
+    height: 300px;
+}
+#morris_bar_bold{
+    height: 300px;
+}
+
+tspan {
+    font-size: 13px;
+    font-weight: 400;
+    color: #828BB2;
+    text-transform: capitalize;
+}
+
+  .morris-hover.morris-default-style .morris-hover-point {
+    white-space: nowrap;
+    margin: 0.1em 0;
+    font-size: 13px;
+    color: #828BB2 !important;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: $font_style_1;
+}
+
+.morris-hover.morris-default-style .morris-hover-row-label {
+    font-weight: bold;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #828BB2;
+    line-height: 16px;
+    font-family: $font_style_1;
+}
+
+.morris-hover.morris-default-style {
+    font-family: $font_style_1;
+    font-size: 12px;
+    text-align: center;
+    background: #fff !important;
+    border: 0;
+    padding: 12px 22px 12px 22px !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #7C32FF ;
+    font-weight: 500;
+    span{
+        font-weight: bold;
+        margin: 0;
+        font-size: 12px;
+        font-weight: 300;
+        color: #828BB2;
+        line-height: 12px;
+        font-family: $font_style_1;
+    }
+}
+
+
+// single_tilt 
+.single_tilt{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 15px rgba(235, 215, 241, 0.22);
+    border-radius: 10px;
+    padding:  20px 30px;
+    .tilt_content{
+        h4{
+            font-size: 24px;
+            color: #415094;
+            font-weight: 500;
+            line-height: 36px;
+            margin-bottom: 0;
+            span{
+                color: #415094;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+            }
+        }
+        p{
+            font-size: 14px;
+            color: #828BB2;
+            font-weight: 500;
+        }
+    }
+}
+

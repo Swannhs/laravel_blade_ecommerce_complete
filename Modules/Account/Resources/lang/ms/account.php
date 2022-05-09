@@ -1,0 +1,20 @@
+<?php  
+return [
+   'Account'=>'Akaun',
+   'Chart Of Accounts'=>' Rekening Carta',
+   'Bank Accounts'=>' Akaun Bank',
+   'Incomes'=>' Pendapatan',
+   'Expenses'=>' Perbelanjaan',
+   'Parent Account'=>' Akaun Induk',
+   'Name'=>' Nama',
+   'Code'=>' Kod',
+   'Type'=>' Jenis',
+   'Description'=>' Perihalan',
+   'Default for'=>' Lalai untuk',
+   'Amount'=>' Jumlah',
+   'Transaction date'=>' Tarikh transaksi',
+   'Profit'=>' Keuntungan',
+   'From The Beginning'=>' Dari Awal',
+   'Balance'=>' Baki',
+   'Opening Balance'=>' Membuka Keseimbangan',
+];
